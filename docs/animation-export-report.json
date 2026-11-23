@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Emerge",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      91
+    ],
+    "fps": 30
+  },
+  {
+    "name": "FallIn",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      16
+    ],
+    "fps": 30
+  },
+  {
+    "name": "Happy",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      43
+    ],
+    "fps": 30
+  },
+  {
+    "name": "Idle",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      91
+    ],
+    "fps": 30
+  },
+  {
+    "name": "Peek",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      37
+    ],
+    "fps": 30
+  },
+  {
+    "name": "Strain",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      2
+    ],
+    "fps": 30
+  },
+  {
+    "name": "Touched",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      28
+    ],
+    "fps": 30
+  },
+  {
+    "name": "Walk",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      25
+    ],
+    "fps": 30
+  },
+  {
+    "name": "Wave",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "frames": [
+      1,
+      49
+    ],
+    "fps": 30
+  }
+]

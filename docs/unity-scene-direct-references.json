@@ -1,0 +1,462 @@
+{
+  "scene": "Assets/ARTnGAME/Meshing 1.unity",
+  "scope": "Direct serialized GUID references only; not recursive dependencies or runtime loads.",
+  "references": [
+    {
+      "guid": "536d76ee6e9f93e419f5417e44c26bb9",
+      "path": "Assets/ARTnGAME/IvyStudio/Materials/URP/IvyBranchMaterial URP GROW.mat",
+      "bytes": 5053
+    },
+    {
+      "guid": "b517e3b496411404d9b665d70cc3e259",
+      "path": "Assets/ARTnGAME/IvyStudio/PREFABS/URP/Procedural Ivy Long EDITOR SOURCE URP.prefab",
+      "bytes": 4267
+    },
+    {
+      "guid": "42639e27cb175d8488974c697fdf13d4",
+      "path": "Assets/Animated Trees Package/Prefabs/Animated/Birches/Birch 1.prefab",
+      "bytes": 67831
+    },
+    {
+      "guid": "867151643308bbc458d63f0412bd3a54",
+      "path": "Assets/Animated Trees Package/Prefabs/Animated/Oaks/Oak 1.prefab",
+      "bytes": 67943
+    },
+    {
+      "guid": "e064b066102664be4a65f0fd08ac950d",
+      "path": "Assets/Audio Effect/Chocolate ice cream-1s.wav",
+      "bytes": 17180
+    },
+    {
+      "guid": "d3925ad8f15c9488ba55672fbacd6434",
+      "path": "Assets/Data/Moodium/Worlds/CandyWorld.asset",
+      "bytes": 1364
+    },
+    {
+      "guid": "a8314a070095e4e7aab146957fa67180",
+      "path": "Assets/Data/Moodium/Worlds/MoodiumWorldDatabase.asset",
+      "bytes": 781
+    },
+    {
+      "guid": "30538aa757d5768459b127b9b70d4362",
+      "path": "Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/HitDustExplosion.prefab",
+      "bytes": 345386
+    },
+    {
+      "guid": "7fb954e1c1961644d85f884b946f53b0",
+      "path": "Assets/Epic Toon FX/Sound/etfx_explosion_bubble.wav",
+      "bytes": 133324
+    },
+    {
+      "guid": "235db7e7f6d982140a4a5ac56629e519",
+      "path": "Assets/Epic Toon FX/Sound/etfx_explosion_mystic02.wav",
+      "bytes": 152628
+    },
+    {
+      "guid": "cd42fc3c60305214daafa1fa16a8cb46",
+      "path": "Assets/Epic Toon FX/Sound/etfx_explosion_slime2.wav",
+      "bytes": 154242
+    },
+    {
+      "guid": "2722086750a69aa4289a792be804c60b",
+      "path": "Assets/Epic Toon FX/Sound/etfx_explosion_sparkle2.wav",
+      "bytes": 254412
+    },
+    {
+      "guid": "a550cb02580f00c40b4ba02aeff3acb4",
+      "path": "Assets/Epic Toon FX/Sound/etfx_pop_balloon.wav",
+      "bytes": 103060
+    },
+    {
+      "guid": "5052682f23f19384da5d743dc76ed64b",
+      "path": "Assets/Epic Toon FX/Sound/etfx_spawn.wav",
+      "bytes": 177526
+    },
+    {
+      "guid": "6dfbba17f12b48f184df0afca71916ba",
+      "path": "Assets/Materials/CandyCrack.mat",
+      "bytes": 937
+    },
+    {
+      "guid": "013e49c7b4d024bccb1b4be6f47df942",
+      "path": "Assets/Materials/CandyTransformationMaterial.mat",
+      "bytes": 4651
+    },
+    {
+      "guid": "c199f7a8aeba54668baab687c7f2142c",
+      "path": "Assets/Materials/Moodium_ObjectPicker_Glass.mat",
+      "bytes": 3821
+    },
+    {
+      "guid": "7dcbaf14945414ace97cdb84d5ef9179",
+      "path": "Assets/Model/tracking/TissueReferenceObjectLibrary.asset",
+      "bytes": 697
+    },
+    {
+      "guid": "0f35e04f58532405db51d5a1c8f35a89",
+      "path": "Assets/Moodium/Tracking/MoodiumImageReferenceLibrary.asset",
+      "bytes": 1638
+    },
+    {
+      "guid": "6ddbd26abb80a4d4bafba9873a8e18c8",
+      "path": "Assets/Moodium/image/CandyWorld.png",
+      "bytes": 28607749
+    },
+    {
+      "guid": "14158703236c241dfa6454e4c4285e35",
+      "path": "Assets/Moodium/image/NatureWorld.png",
+      "bytes": 31161681
+    },
+    {
+      "guid": "b821f110d36a8443cb86c8bfb5c365ef",
+      "path": "Assets/Moodium/image/crack.png",
+      "bytes": 1332984
+    },
+    {
+      "guid": "6df1a7dd02ff3443d889ef421b2763e2",
+      "path": "Assets/Resources/Moodium/MoodCheck/MoodCheckPanel.prefab",
+      "bytes": 313442
+    },
+    {
+      "guid": "11e5eb976bb94994b10220ab4477cca5",
+      "path": "Assets/Resources/Moodium/Rewards/CandyWorldRewardTable.asset",
+      "bytes": 1470
+    },
+    {
+      "guid": "585b9db53690465ab39d1b34aca44c71",
+      "path": "Assets/Resources/Moodium/Rewards/NatureWorldRewardTable.asset",
+      "bytes": 1390
+    },
+    {
+      "guid": "8ed3b3817c96b4b6ea0885c874eaa640",
+      "path": "Assets/Samples/PolySpatial/Manipulation/Scripts/SpatialTapSelectFilter.cs",
+      "bytes": 1020
+    },
+    {
+      "guid": "35f3dba18639d4942b245d6eff9322db",
+      "path": "Assets/Samples/PolySpatial/Meshing/Materials/OcclusionMeshMat.mat",
+      "bytes": 3607
+    },
+    {
+      "guid": "551a9ba013c4f4e92b24e536c349d3db",
+      "path": "Assets/Samples/PolySpatial/Meshing/Materials/SpawnerMat.mat",
+      "bytes": 3779
+    },
+    {
+      "guid": "02fd697d8b4c34f92b0856c22bba880d",
+      "path": "Assets/Samples/PolySpatial/Meshing/Materials/TexturedMeshMat.mat",
+      "bytes": 3875
+    },
+    {
+      "guid": "e86f2256a9b7344ef807249385310f25",
+      "path": "Assets/Samples/PolySpatial/Meshing/Materials/WireframeMat.mat",
+      "bytes": 3862
+    },
+    {
+      "guid": "b53abf2e086174f5faa92fb58ab25030",
+      "path": "Assets/Samples/PolySpatial/Meshing/Prefabs/HandCollider.prefab",
+      "bytes": 4124
+    },
+    {
+      "guid": "b25c12c6b791749039b6b333332110c4",
+      "path": "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricDataBuilder.cs",
+      "bytes": 2054
+    },
+    {
+      "guid": "a33d3674b55264b60a5d346238b1642a",
+      "path": "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricMeshData.cs",
+      "bytes": 1455
+    },
+    {
+      "guid": "9f369c468cec14208b72ee3456e04596",
+      "path": "Assets/Samples/PolySpatial/Meshing/Scripts/HandColliderManager.cs",
+      "bytes": 3238
+    },
+    {
+      "guid": "e70c10ec4cdc7420690fb4b0e1d48808",
+      "path": "Assets/Samples/PolySpatial/Meshing/Scripts/MeshSwiftUIDriver.cs",
+      "bytes": 21231
+    },
+    {
+      "guid": "e144c0b3131634121be5bbf3c9718571",
+      "path": "Assets/Samples/PolySpatial/MixedReality/Prefabs/AR Default Mesh.prefab",
+      "bytes": 3367
+    },
+    {
+      "guid": "724776171a2184c16b69358d20ac9b90",
+      "path": "Assets/Samples/PolySpatial/Resources/Unbounded_VolumeCameraConfiguration.asset",
+      "bytes": 493
+    },
+    {
+      "guid": "9b1b17c76b7b98649809728d7826d6b6",
+      "path": "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/XAxis.mat",
+      "bytes": 3701
+    },
+    {
+      "guid": "a893f203f5f0d7c49b1ac799d96e3d4e",
+      "path": "Assets/Samples/PolySpatial/Shared/Models/Cube.fbx",
+      "bytes": 58144
+    },
+    {
+      "guid": "ac01d01054a614e4b81a0174f9e3810e",
+      "path": "Assets/Samples/PolySpatial/Shared/Prefabs/TransformHandle.prefab",
+      "bytes": 18212
+    },
+    {
+      "guid": "0d817506aa1a347d19969ead4843df2b",
+      "path": "Assets/Samples/PolySpatial/Shared/Scripts/SwiftFPSCounter.cs",
+      "bytes": 1100
+    },
+    {
+      "guid": "24419d7bfd3304f8f9cd05254dbc985c",
+      "path": "Assets/Samples/PolySpatial/SwiftUI/Scripts/VolumeCameraSwiftUIManager.cs",
+      "bytes": 1601
+    },
+    {
+      "guid": "f721e153d43f4706a5c9e54c9965213f",
+      "path": "Assets/Scripts/ImageTrackingCapsuleSpawner.cs",
+      "bytes": 5877
+    },
+    {
+      "guid": "fc2fadb8d5c9e4c62a78f6eb5bba9e0b",
+      "path": "Assets/Scripts/Interaction/MoodiumInteractionVFXManager.cs",
+      "bytes": 20793
+    },
+    {
+      "guid": "9080e2e688e824588a1a8eed98077534",
+      "path": "Assets/Scripts/Moodium/Calibration/SensoryBagCalibrationCoordinator.cs",
+      "bytes": 15660
+    },
+    {
+      "guid": "b792de48d6544f7fab5a187937b83e02",
+      "path": "Assets/Scripts/Moodium/MoodiumAppFlowController.cs",
+      "bytes": 95531
+    },
+    {
+      "guid": "174b66967e24c4f1797a9be0d5e321c9",
+      "path": "Assets/Scripts/Moodium/MoodiumAudioManager.cs",
+      "bytes": 9556
+    },
+    {
+      "guid": "e03b909c6ffdc434ca2248178dd9d3a7",
+      "path": "Assets/Scripts/Moodium/Opening/MoodiumPortalEntranceController.cs",
+      "bytes": 23998
+    },
+    {
+      "guid": "7162e66cb509b49fb98ab0043fd1baf4",
+      "path": "Assets/Scripts/TissueObjectTrackingSpawner.cs",
+      "bytes": 8726
+    },
+    {
+      "guid": "203e359c0c57245859d891950e697fa7",
+      "path": "Assets/Skybox_moodium.mat",
+      "bytes": 4807
+    },
+    {
+      "guid": "0e15b0e260ab94646bb21d096df182fb",
+      "path": "Assets/UI/Image/Augmented Reality-UI.png",
+      "bytes": 3728301
+    },
+    {
+      "guid": "f01336ac660af444bbe0ecb8fa6cfe5c",
+      "path": "Assets/UI/Image/Space Creation- UI.png",
+      "bytes": 4320495
+    },
+    {
+      "guid": "87c6dc9cf9eb7482f92d732e550a4b92",
+      "path": "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+      "bytes": 7171389
+    },
+    {
+      "guid": "5d946757aa5b8410aba5b97ed2216bfa",
+      "path": "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "bytes": 319024
+    },
+    {
+      "guid": "3817d28d333db46d7a549d32cac870f1",
+      "path": "Assets/UI/Moodium/WristHUD_Circle.png",
+      "bytes": 927
+    },
+    {
+      "guid": "485a3f92515ed4d1dae5811a5ad83e37",
+      "path": "Assets/UI/Moodium/WristHUD_Rounded.png",
+      "bytes": 998
+    },
+    {
+      "guid": "7d9082502ea9745e78a38429f043b66b",
+      "path": "Assets/prefab/Bean.prefab",
+      "bytes": 4347
+    },
+    {
+      "guid": "3573433dc92c47b1b8820bc188ed0693",
+      "path": "Assets/prefab/CandyCrack.prefab",
+      "bytes": 3002
+    },
+    {
+      "guid": "00110a095b7124a01be82fa4dba39dd8",
+      "path": "Assets/prefab/CandyHouse.prefab",
+      "bytes": 4314
+    },
+    {
+      "guid": "70a7e18da0d674747a400b6c7c3a733e",
+      "path": "Assets/prefab/CandyLittleHouse.prefab",
+      "bytes": 4323
+    },
+    {
+      "guid": "1a625cf3392f44daea4271fa589266f3",
+      "path": "Assets/prefab/CandySoft.prefab",
+      "bytes": 6303
+    },
+    {
+      "guid": "9b7f48995c0634708b12f6eddad122fc",
+      "path": "Assets/prefab/CandyWorlLevelSelection.prefab",
+      "bytes": 4383
+    },
+    {
+      "guid": "568a81cade6de4441917864c3a0ca2ca",
+      "path": "Assets/prefab/CandyWorldUI.prefab",
+      "bytes": 9750
+    },
+    {
+      "guid": "c20f1fdddf04f49c28dd4297f8e5200a",
+      "path": "Assets/prefab/ChocolatePrefab.prefab",
+      "bytes": 10318
+    },
+    {
+      "guid": "bf49babe221a94b1f871279c1cb0b68d",
+      "path": "Assets/prefab/CookiePrefab.prefab",
+      "bytes": 10306
+    },
+    {
+      "guid": "af7bbf8c360a84b4896517595e16196d",
+      "path": "Assets/prefab/Debug/CandyTransformationPreview.prefab",
+      "bytes": 24048
+    },
+    {
+      "guid": "d882278a24ef2452f854c8ef70b879ac",
+      "path": "Assets/prefab/Effects/CandyFrost.prefab",
+      "bytes": 236396
+    },
+    {
+      "guid": "e5943d1f9fd57453ea70b838d0f9cba1",
+      "path": "Assets/prefab/Effects/MoodiumInteractionParticle.prefab",
+      "bytes": 118954
+    },
+    {
+      "guid": "b845cc5bbde33413fac5af1b2534ab8b",
+      "path": "Assets/prefab/Effects/NatureLeafFall.prefab",
+      "bytes": 118820
+    },
+    {
+      "guid": "0d8941e68908b4c4bb7c6fd996a0a95a",
+      "path": "Assets/prefab/HeartPrefab.prefab",
+      "bytes": 10309
+    },
+    {
+      "guid": "e12f4440a4e5d4357a5c5980bbcd1b9c",
+      "path": "Assets/prefab/Macaron.prefab",
+      "bytes": 9006
+    },
+    {
+      "guid": "1c1c0c337d80f495e8342b47fb803074",
+      "path": "Assets/prefab/Moodi meshy.prefab",
+      "bytes": 10605
+    },
+    {
+      "guid": "1865acb6f5c4e4bd9ae18bfda633d9b1",
+      "path": "Assets/prefab/MoodiumOpening/MoodiumOpening.prefab",
+      "bytes": 30295
+    },
+    {
+      "guid": "9ffd726f9fbd14fd795b8a3fd7cabc63",
+      "path": "Assets/prefab/MoodiumOpening/MoodiumPortalEntrance.prefab",
+      "bytes": 189354
+    },
+    {
+      "guid": "ef0bc5e54ce249b49ad7bf686d5c4772",
+      "path": "Assets/prefab/NatureBurstClover.prefab",
+      "bytes": 2190
+    },
+    {
+      "guid": "0ccf480805cf43ffb31491b78960ab8e",
+      "path": "Assets/prefab/NatureBurstFlower.prefab",
+      "bytes": 2190
+    },
+    {
+      "guid": "54e422f949db4b5a80997273b27c9813",
+      "path": "Assets/prefab/NatureBurstMushroom.prefab",
+      "bytes": 2192
+    },
+    {
+      "guid": "304ef1a166c654b98808d9c59f5bb5b9",
+      "path": "Assets/prefab/NatureSoft.prefab",
+      "bytes": 7037
+    },
+    {
+      "guid": "aae9b05163e2e41119b31f85cca4d3a8",
+      "path": "Assets/prefab/NatureWorldUI.prefab",
+      "bytes": 9965
+    },
+    {
+      "guid": "8d753ebf2073a412aa7d843142b35721",
+      "path": "Assets/prefab/SpatialTable.prefab",
+      "bytes": 6723
+    },
+    {
+      "guid": "496ec404e800f4e70b227621d657fffd",
+      "path": "Assets/prefab/StarPrefab.prefab",
+      "bytes": 10312
+    },
+    {
+      "guid": "d91edd1b833fa4c4ab87eea899094818",
+      "path": "Assets/prefab/UI-PushLeftHand.prefab",
+      "bytes": 4389
+    },
+    {
+      "guid": "21c1ad5e8f325426088bf3fe267c238f",
+      "path": "Assets/prefab/UI-PushRightHand.prefab",
+      "bytes": 4389
+    },
+    {
+      "guid": "45cf775099b7e4a0695502842e2cf0f3",
+      "path": "Assets/prefab/UI/Moodium_GlassPanel.prefab",
+      "bytes": 16152
+    },
+    {
+      "guid": "c9c747b86fcdd4661ac0d3a96a6f4203",
+      "path": "Assets/prefab/UI/WorldCard.prefab",
+      "bytes": 30826
+    },
+    {
+      "guid": "0d5c5a33e95664db3a15e8ed7bb9bb3e",
+      "path": "Assets/prefab/Wildflowers.prefab",
+      "bytes": 4362
+    },
+    {
+      "guid": "7b6cf9f8d6c1748509c57bb8552bb919",
+      "path": "Assets/prefab/grass.prefab",
+      "bytes": 4353
+    }
+  ],
+  "unresolved_guids": [
+    "0000000000000000e000000000000000",
+    "0000000000000000f000000000000000",
+    "017c5e3933235514c9520e1dace2a4b2",
+    "0ad34abafad169848a38072baa96cdb2",
+    "33acc3b6f04fc124fa646203f42ed25f",
+    "3859a92a05d4f5d418cb6ca605290e74",
+    "474bcb49853aa07438625e644c072ee6",
+    "4966719baa26e4b0e8231a24d9bd491a",
+    "4dea56a9eaadd1c439095de4f9a371cb",
+    "5f07ca66ce5514fb7a26ab1e51e9bfec",
+    "7d7eba0c299c7774894d5f825a7c3fc2",
+    "816b289ef451e094f9ae174fb4cf8db0",
+    "83e4e6cca11330d4088d729ab4fc9d9f",
+    "968053edfd89749c48f4ea5d444abf64",
+    "a79441f348de89743a2939f4d699eac1",
+    "bec180ed0ef74440b93237e826654f13",
+    "c2fadf230d1919748a9aa21d40f74619",
+    "e0cb9aa70a22847b5925ee5f067c10a9",
+    "fa850fbd5b8aded44846f96e35f1a9f5"
+  ]
+}

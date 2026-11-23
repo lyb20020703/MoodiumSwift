@@ -1,0 +1,1040 @@
+{
+  "CandyWorldUI": {
+    "source": "Assets/prefab/CandyWorldUI.prefab",
+    "instances": [
+      {
+        "source": "Assets/prefab/Moodi meshy.prefab",
+        "modifications": [
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalScale.x",
+            "value": "0.3",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalScale.y",
+            "value": "0.3",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalScale.z",
+            "value": "0.3",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalPosition.y",
+            "value": "0.008",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalPosition.z",
+            "value": "-0.024",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalRotation.w",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "180",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalScale.x",
+            "value": "0.015",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalScale.y",
+            "value": "0.015",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalScale.z",
+            "value": "0.015",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "0.019",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "-0.051",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "-0.073",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "-0.028784165",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "-0.9995857",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "-183.299",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_Name",
+            "value": "Moodi meshy",
+            "reference": "{fileID: 0}"
+          }
+        ]
+      },
+      {
+        "source": "Assets/Model/candyworld_lofi.fbx",
+        "modifications": [
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalScale.x",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalScale.y",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalScale.z",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "-0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "-0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "-0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "-90",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "-90",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-7511558181221131132",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "reference": "{fileID: 2100000, guid: 60e1ebf9b4ac241c1a651a3937753e98, type: 2}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/candyworld_lofi.fbx",
+            "property": "m_Name",
+            "value": "candyworld_lofi",
+            "reference": "{fileID: 0}"
+          }
+        ]
+      }
+    ]
+  },
+  "NatureWorldUI": {
+    "source": "Assets/prefab/NatureWorldUI.prefab",
+    "instances": [
+      {
+        "source": "Assets/Model/natureworld_lofi.fbx",
+        "modifications": [
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalScale.x",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalScale.y",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalScale.z",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "0.41896456",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "-0.41896456",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "-0.56962156",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "-0.56962156",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "-90",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "-180",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "72.67",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-7511558181221131132",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "reference": "{fileID: 2100000, guid: 86ed45702d37e4012a86fd0850923b7c, type: 2}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/natureworld_lofi.fbx",
+            "property": "m_Name",
+            "value": "natureworld_lofi",
+            "reference": "{fileID: 0}"
+          }
+        ]
+      },
+      {
+        "source": "Assets/prefab/Moodi meshy.prefab",
+        "modifications": [
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalScale.x",
+            "value": "0.3",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalScale.y",
+            "value": "0.3",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalScale.z",
+            "value": "0.3",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalPosition.x",
+            "value": "0.059",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalPosition.y",
+            "value": "0.023",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalPosition.z",
+            "value": "-0.055",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalRotation.w",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalRotation.y",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "180",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8741942583106014996",
+            "targetPath": "Assets/prefab/Moodi meshy.prefab",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalScale.x",
+            "value": "0.015",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalScale.y",
+            "value": "0.015",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalScale.z",
+            "value": "0.015",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "0.067",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "-0.015",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "-0.007344583",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "-0.99997306",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "-180.842",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/IP_Unity_3Clips.fbx",
+            "property": "m_Name",
+            "value": "Moodi meshy",
+            "reference": "{fileID: 0}"
+          }
+        ]
+      }
+    ]
+  },
+  "CandySoft": {
+    "source": "Assets/prefab/CandySoft.prefab",
+    "instances": [
+      {
+        "source": "Assets/Model/CandySoft.fbx",
+        "modifications": [
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "0.7071068",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "-0.7071068",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/CandySoft.fbx",
+            "property": "m_Name",
+            "value": "CandySoft",
+            "reference": "{fileID: 0}"
+          }
+        ]
+      }
+    ]
+  },
+  "NatureSoft": {
+    "source": "Assets/prefab/NatureSoft.prefab",
+    "instances": [
+      {
+        "source": "Assets/Model/NatureSoft.fbx",
+        "modifications": [
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalScale.x",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalScale.y",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalScale.z",
+            "value": "0.5",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "0.7071068",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "-0.7071068",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/NatureSoft.fbx",
+            "property": "m_Name",
+            "value": "NatureSoft",
+            "reference": "{fileID: 0}"
+          }
+        ]
+      }
+    ]
+  },
+  "Moodi meshy": {
+    "source": "Assets/prefab/Moodi meshy.prefab",
+    "instances": [
+      {
+        "source": "Assets/Model/Moodi_Rigged.fbx",
+        "modifications": [
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalScale.x",
+            "value": "0.100004025",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalScale.y",
+            "value": "0.100004025",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalScale.z",
+            "value": "0.100004025",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_Name",
+            "value": "moodi_rigged",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8298744061082397272",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_UpdateWhenOffscreen",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "8298744061082397272",
+            "targetPath": "Assets/Model/Moodi_Rigged.fbx",
+            "property": "m_Materials.Array.data[0]",
+            "value": "",
+            "reference": "{fileID: 2100000, guid: fbf7d65d3b7fc480a835804c96b02abe, type: 2}"
+          }
+        ]
+      },
+      {
+        "source": "Assets/Model/moodi.fbx",
+        "modifications": [
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalScale.x",
+            "value": "10",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalScale.y",
+            "value": "10",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalScale.z",
+            "value": "10",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalPosition.x",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalPosition.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalPosition.z",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalRotation.w",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalRotation.x",
+            "value": "-0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalRotation.y",
+            "value": "-0.7071068",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalRotation.z",
+            "value": "-0.7071068",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalEulerAnglesHint.x",
+            "value": "-90",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalEulerAnglesHint.y",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_LocalEulerAnglesHint.z",
+            "value": "-180",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "-8679921383154817045",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_ConstrainProportionsScale",
+            "value": "1",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_Name",
+            "value": "moodi",
+            "reference": "{fileID: 0}"
+          },
+          {
+            "targetFileID": "919132149155446097",
+            "targetPath": "Assets/Model/moodi.fbx",
+            "property": "m_IsActive",
+            "value": "0",
+            "reference": "{fileID: 0}"
+          }
+        ]
+      }
+    ]
+  }
+}

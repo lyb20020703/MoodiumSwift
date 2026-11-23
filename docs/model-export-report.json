@@ -1,0 +1,64 @@
+[
+  {
+    "name": "CandyWorldUI",
+    "source": "Assets/Model/candyworld_lofi.fbx",
+    "sourceSHA256": "2b647ed2fe02a585a6d239d58367b7f38e2a8ed25e60f2d661a0fddcfb43df58",
+    "outputBytes": 32503245,
+    "materialOverrides": {
+      "tripo_mat_6eab4fb4": "Assets/Materials/CandyWorldUI/CandyWorldUI.mat"
+    },
+    "pendingVisualChecks": [
+      "Packed metallic/smoothness channels converted using URP LitInput; visual validation pending"
+    ],
+    "objects": 1,
+    "polygons": 479198
+  },
+  {
+    "name": "NatureWorldUI",
+    "source": "Assets/Model/natureworld_lofi.fbx",
+    "sourceSHA256": "e44873ff2bbcbc36412af3368e9fd07175cfb3714bc46aa7463e8674bab5c900",
+    "outputBytes": 29539820,
+    "materialOverrides": {
+      "tripo_mat_d45fb413": "Assets/Materials/NatureWorldUI/NatureWorldUI.mat"
+    },
+    "pendingVisualChecks": [],
+    "objects": 1,
+    "polygons": 464304
+  },
+  {
+    "name": "CandySoft",
+    "source": "Assets/Model/CandySoft.fbx",
+    "sourceSHA256": "c6af2dd951f6ba3243dddabec2e1f0203452b5d9e9a38a6545859ec516480aa5",
+    "outputBytes": 35567744,
+    "materialOverrides": {
+      "tripo_mat_4ebc212f": "Assets/Materials/CandySoft/CandySoft.mat"
+    },
+    "pendingVisualChecks": [],
+    "objects": 1,
+    "polygons": 500000
+  },
+  {
+    "name": "NatureSoft",
+    "source": "Assets/Model/NatureSoft.fbx",
+    "sourceSHA256": "58c29c63abc858af3b9edf28dfb62540127f7c99bc16b87ac837115d2a25bb35",
+    "outputBytes": 38891004,
+    "materialOverrides": {
+      "tripo_mat_2a26f94b": "Assets/Materials/NatureSoft/NatureSoft.mat"
+    },
+    "pendingVisualChecks": [
+      "Packed metallic/smoothness channels converted using URP LitInput; visual validation pending"
+    ],
+    "objects": 1,
+    "polygons": 500000
+  },
+  {
+    "name": "Moodi_Rigged",
+    "source": "Assets/Model/Moodi_Rigged.fbx",
+    "sourceSHA256": "c6a3ab519b338c11d1077e88cc54e149842528af613bc4e8fed5e58d2e7cf2fe",
+    "outputBytes": 9311106,
+    "materialOverrides": {},
+    "pendingVisualChecks": [],
+    "objects": 2,
+    "polygons": 130262
+  }
+]

@@ -1,0 +1,4357 @@
+[
+  {
+    "path": "Assets/Resources/Moodium/Rewards/NatureWorldRewardTable.asset",
+    "bytes": 1390,
+    "references": [
+      "Assets/Animated Trees Package/Prefabs/Static/Junipers/Juniper 1.prefab",
+      "Assets/prefab/NatureBurstFlower.prefab",
+      "Assets/Animated Trees Package/Prefabs/Static/Oaks/Oak 1.prefab",
+      "Assets/Animated Trees Package/Prefabs/Static/Pines/Pine 1.prefab",
+      "Assets/prefab/NatureBurstMushroom.prefab",
+      "Assets/Resources/Moodium/Rewards/NatureWorldRewardTable.asset",
+      "Assets/Scripts/Moodium/Rewards/WorldRewardTable.cs",
+      "Assets/prefab/NatureBurstClover.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Prefabs/Static/Oaks/Oak 1.prefab",
+    "bytes": 9305,
+    "references": [
+      "Assets/Animated Trees Package/Prefabs/Static/Oaks/Oak 1.prefab",
+      "Assets/Animated Trees Package/Materials/oak_bark.mat",
+      "Assets/Animated Trees Package/Materials/oak_leaves.mat",
+      "Assets/Animated Trees Package/Models/Oaks/oak_1.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Models/Oaks/oak_1.fbx",
+    "bytes": 1065532,
+    "references": [
+      "Assets/Animated Trees Package/Materials/oak_bark.mat",
+      "Assets/Animated Trees Package/Materials/oak_leaves.mat",
+      "Assets/Animated Trees Package/Models/Oaks/oak_1.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/oak_bark.mat",
+    "bytes": 5024,
+    "references": [
+      "Assets/Animated Trees Package/Textures/oak_bark_color.png",
+      "Assets/Animated Trees Package/Materials/oak_bark.mat",
+      "Assets/Animated Trees Package/Textures/acacia_bark_color.png",
+      "Assets/Animated Trees Package/Textures/oak_bark_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/oak_bark_normal.png",
+    "bytes": 6565366,
+    "references": [
+      "Assets/Animated Trees Package/Textures/oak_bark_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/oak_bark_color.png",
+    "bytes": 6413797,
+    "references": [
+      "Assets/Animated Trees Package/Textures/oak_bark_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/acacia_bark_color.png",
+    "bytes": 9134099,
+    "references": [
+      "Assets/Animated Trees Package/Textures/acacia_bark_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/oak_leaves.mat",
+    "bytes": 5270,
+    "references": [
+      "Assets/Animated Trees Package/Textures/acacia_leaves_color.png",
+      "Assets/Animated Trees Package/Textures/oak_leaves_normal.png",
+      "Assets/Animated Trees Package/Textures/oak_leaves_color.png",
+      "Assets/Animated Trees Package/Materials/oak_leaves.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/oak_leaves_normal.png",
+    "bytes": 853531,
+    "references": [
+      "Assets/Animated Trees Package/Textures/oak_leaves_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/oak_leaves_color.png",
+    "bytes": 2306340,
+    "references": [
+      "Assets/Animated Trees Package/Textures/oak_leaves_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/acacia_leaves_color.png",
+    "bytes": 1536597,
+    "references": [
+      "Assets/Animated Trees Package/Textures/acacia_leaves_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Prefabs/Static/Junipers/Juniper 1.prefab",
+    "bytes": 6913,
+    "references": [
+      "Assets/Animated Trees Package/Prefabs/Static/Junipers/Juniper 1.prefab",
+      "Assets/Animated Trees Package/Materials/juniper_leaves_1.mat",
+      "Assets/Animated Trees Package/Materials/juniper_bark.mat",
+      "Assets/Animated Trees Package/Models/Junipers/juniper_1.fbx",
+      "Assets/Animated Trees Package/Materials/juniper_leaves_2.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/juniper_bark.mat",
+    "bytes": 5047,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_bark_color.png",
+      "Assets/Animated Trees Package/Textures/juniper_bark_normal.png",
+      "Assets/Animated Trees Package/Materials/juniper_bark.mat",
+      "Assets/Animated Trees Package/Textures/beech_bark_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/juniper_bark_normal.png",
+    "bytes": 7274383,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_bark_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/beech_bark_color.png",
+    "bytes": 10733073,
+    "references": [
+      "Assets/Animated Trees Package/Textures/beech_bark_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/juniper_bark_color.png",
+    "bytes": 10363827,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_bark_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Models/Junipers/juniper_1.fbx",
+    "bytes": 364700,
+    "references": [
+      "Assets/Animated Trees Package/Materials/juniper_leaves_1.mat",
+      "Assets/Animated Trees Package/Materials/juniper_bark.mat",
+      "Assets/Animated Trees Package/Models/Junipers/juniper_1.fbx",
+      "Assets/Animated Trees Package/Materials/juniper_leaves_2.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/juniper_leaves_2.mat",
+    "bytes": 5275,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_leaves_2_color.png",
+      "Assets/Animated Trees Package/Textures/beech_leaves_2_color.png",
+      "Assets/Animated Trees Package/Textures/juniper_leaves_2_normal.png",
+      "Assets/Animated Trees Package/Materials/juniper_leaves_2.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/beech_leaves_2_color.png",
+    "bytes": 734513,
+    "references": [
+      "Assets/Animated Trees Package/Textures/beech_leaves_2_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/juniper_leaves_2_color.png",
+    "bytes": 741388,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_leaves_2_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/juniper_leaves_2_normal.png",
+    "bytes": 262611,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_leaves_2_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/juniper_leaves_1.mat",
+    "bytes": 5400,
+    "references": [
+      "Assets/Animated Trees Package/Textures/beech_leaves_1_color.png",
+      "Assets/Animated Trees Package/Materials/juniper_leaves_1.mat",
+      "Assets/Animated Trees Package/Textures/juniper_leaves_1_color.png",
+      "Assets/Animated Trees Package/Textures/juniper_leaves_1_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/beech_leaves_1_color.png",
+    "bytes": 855299,
+    "references": [
+      "Assets/Animated Trees Package/Textures/beech_leaves_1_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/juniper_leaves_1_color.png",
+    "bytes": 914977,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_leaves_1_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/juniper_leaves_1_normal.png",
+    "bytes": 286299,
+    "references": [
+      "Assets/Animated Trees Package/Textures/juniper_leaves_1_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/NatureBurstMushroom.prefab",
+    "bytes": 2192,
+    "references": [
+      "Assets/prefab/mushroom.prefab",
+      "Assets/prefab/NatureBurstMushroom.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/mushroom.prefab",
+    "bytes": 3617,
+    "references": [
+      "Assets/prefab/mushroom.prefab",
+      "Assets/Model/mushroom.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/mushroom.fbx",
+    "bytes": 1425996,
+    "references": [
+      "Assets/Model/mushroom.fbx",
+      "Assets/Materials/mushroom/mushroom.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/mushroom/mushroom.mat",
+    "bytes": 3864,
+    "references": [
+      "Assets/Materials/mushroom/tripo_node_dfcf93e6_Normal_Bake.jpg",
+      "Assets/Materials/mushroom/tripo_node_dfcf93e6_BaseColor.jpg",
+      "Assets/Materials/mushroom/mushroom.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/mushroom/tripo_node_dfcf93e6_BaseColor.jpg",
+    "bytes": 680530,
+    "references": [
+      "Assets/Materials/mushroom/tripo_node_dfcf93e6_BaseColor.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Materials/mushroom/tripo_node_dfcf93e6_Normal_Bake.jpg",
+    "bytes": 76967,
+    "references": [
+      "Assets/Materials/mushroom/tripo_node_dfcf93e6_Normal_Bake.jpg"
+    ]
+  },
+  {
+    "path": "Assets/prefab/NatureBurstFlower.prefab",
+    "bytes": 2190,
+    "references": [
+      "Assets/prefab/NatureBurstFlower.prefab",
+      "Assets/prefab/flower.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/flower.prefab",
+    "bytes": 3617,
+    "references": [
+      "Assets/prefab/flower.prefab",
+      "Assets/Model/flower.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/flower.fbx",
+    "bytes": 4741708,
+    "references": [
+      "Assets/Materials/flower/flower.mat",
+      "Assets/Model/flower.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/flower/flower.mat",
+    "bytes": 3862,
+    "references": [
+      "Assets/Materials/flower/Normal.png",
+      "Assets/Materials/flower/flower.mat",
+      "Assets/Materials/flower/Color.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Materials/flower/Normal.png",
+    "bytes": 2923163,
+    "references": [
+      "Assets/Materials/flower/Normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Materials/flower/Color.jpg",
+    "bytes": 490463,
+    "references": [
+      "Assets/Materials/flower/Color.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Rewards/WorldRewardTable.cs",
+    "bytes": 1703,
+    "references": [
+      "Assets/Scripts/Moodium/Rewards/WorldRewardTable.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/NatureBurstClover.prefab",
+    "bytes": 2190,
+    "references": [
+      "Assets/prefab/Four-leaf clover.prefab",
+      "Assets/prefab/NatureBurstClover.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Four-leaf clover.prefab",
+    "bytes": 3883,
+    "references": [
+      "Assets/prefab/Four-leaf clover.prefab",
+      "Assets/Model/Four-leaf clover.fbx",
+      "Assets/Samples/PolySpatial/MixedReality/Materials/Green leaf.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/MixedReality/Materials/Green leaf.mat",
+    "bytes": 3851,
+    "references": [
+      "Assets/Samples/PolySpatial/MixedReality/Materials/Green leaf.mat"
+    ]
+  },
+  {
+    "path": "Assets/Model/Four-leaf clover.fbx",
+    "bytes": 5427980,
+    "references": [
+      "Assets/Samples/PolySpatial/MixedReality/Materials/Green.mat",
+      "Assets/Model/Four-leaf clover.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/MixedReality/Materials/Green.mat",
+    "bytes": 3720,
+    "references": [
+      "Assets/Samples/PolySpatial/MixedReality/Materials/Green.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Prefabs/Static/Pines/Pine 1.prefab",
+    "bytes": 6789,
+    "references": [
+      "Assets/Animated Trees Package/Materials/pine_leaves.mat",
+      "Assets/Animated Trees Package/Prefabs/Static/Pines/Pine 1.prefab",
+      "Assets/Animated Trees Package/Models/Pines/pine_1.fbx",
+      "Assets/Animated Trees Package/Materials/pine_bark_1.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/pine_bark_1.mat",
+    "bytes": 5026,
+    "references": [
+      "Assets/Animated Trees Package/Textures/pine_bark_1_color.png",
+      "Assets/Animated Trees Package/Textures/pine_bark_1_normal.png",
+      "Assets/Animated Trees Package/Textures/acacia_bark_color.png",
+      "Assets/Animated Trees Package/Materials/pine_bark_1.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/pine_bark_1_normal.png",
+    "bytes": 6819380,
+    "references": [
+      "Assets/Animated Trees Package/Textures/pine_bark_1_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/pine_bark_1_color.png",
+    "bytes": 9310169,
+    "references": [
+      "Assets/Animated Trees Package/Textures/pine_bark_1_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Models/Pines/pine_1.fbx",
+    "bytes": 454604,
+    "references": [
+      "Assets/Animated Trees Package/Materials/pine_leaves.mat",
+      "Assets/Animated Trees Package/Models/Pines/pine_1.fbx",
+      "Assets/Animated Trees Package/Materials/pine_bark_1.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/pine_leaves.mat",
+    "bytes": 5272,
+    "references": [
+      "Assets/Animated Trees Package/Textures/acacia_leaves_color.png",
+      "Assets/Animated Trees Package/Textures/pine_leaves_normal.png",
+      "Assets/Animated Trees Package/Materials/pine_leaves.mat",
+      "Assets/Animated Trees Package/Textures/pine_leaves_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/pine_leaves_color.png",
+    "bytes": 2221949,
+    "references": [
+      "Assets/Animated Trees Package/Textures/pine_leaves_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/pine_leaves_normal.png",
+    "bytes": 931593,
+    "references": [
+      "Assets/Animated Trees Package/Textures/pine_leaves_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Resources/Moodium/Rewards/CandyWorldRewardTable.asset",
+    "bytes": 1470,
+    "references": [
+      "Assets/prefab/CandyHouse.prefab",
+      "Assets/prefab/HeartPrefab.prefab",
+      "Assets/Resources/Moodium/Rewards/CandyWorldRewardTable.asset",
+      "Assets/prefab/StarPrefab.prefab",
+      "Assets/prefab/CandyLittleHouse.prefab",
+      "Assets/Scripts/Moodium/Rewards/WorldRewardTable.cs",
+      "Assets/prefab/CookiePrefab.prefab",
+      "Assets/prefab/ChocolatePrefab.prefab",
+      "Assets/prefab/Macaron.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/StarPrefab.prefab",
+    "bytes": 10312,
+    "references": [
+      "Assets/Scripts/Interaction/TouchParticleFeedback.cs",
+      "Assets/prefab/StarPrefab.prefab",
+      "Assets/Model/star.fbx",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/Scripts/Interaction/SoftTouchDeformationController.cs",
+      "Assets/Scripts/Interaction/SoftTouchFeedback.cs",
+      "Assets/Epic Toon FX/Sound/etfx_stun01.wav"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Interaction/SoftTouchFeedback.cs",
+    "bytes": 3516,
+    "references": [
+      "Assets/Scripts/Interaction/SoftTouchFeedback.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+    "bytes": 2149,
+    "references": [
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Interaction/SoftTouchDeformationController.cs",
+    "bytes": 8439,
+    "references": [
+      "Assets/Scripts/Interaction/SoftTouchDeformationController.cs"
+    ]
+  },
+  {
+    "path": "Assets/Model/star.fbx",
+    "bytes": 39228,
+    "references": [
+      "Assets/Materials/star.mat",
+      "Assets/Model/star.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/star.mat",
+    "bytes": 3824,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Materials/UI/Carousel_Textures/Element2_Mixed_AO.png",
+      "Assets/Materials/star.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Materials/UI/Carousel_Textures/Element2_Mixed_AO.png",
+    "bytes": 93120,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Materials/UI/Carousel_Textures/Element2_Mixed_AO.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Interaction/TouchParticleFeedback.cs",
+    "bytes": 5992,
+    "references": [
+      "Assets/Scripts/Interaction/TouchParticleFeedback.cs"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_stun01.wav",
+    "bytes": 221772,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_stun01.wav"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Macaron.prefab",
+    "bytes": 9006,
+    "references": [
+      "Assets/Scripts/Interaction/TouchParticleFeedback.cs",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/Model/Macaron.fbx",
+      "Assets/Scripts/Interaction/SoftTouchDeformationController.cs",
+      "Assets/prefab/Macaron.prefab",
+      "Assets/Epic Toon FX/Sound/etfx_shoot_bubble2.wav",
+      "Assets/Scripts/Interaction/SoftTouchFeedback.cs"
+    ]
+  },
+  {
+    "path": "Assets/Model/Macaron.fbx",
+    "bytes": 4191516,
+    "references": [
+      "Assets/Materials/macaron_bottom.mat",
+      "Assets/Materials/macaron_top.mat",
+      "Assets/Materials/macaron_middle.mat",
+      "Assets/Materials/macaron_dec.mat",
+      "Assets/Model/Macaron.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron_top.mat",
+    "bytes": 4018,
+    "references": [
+      "Assets/Materials/macaron/top/tripo_model_roughness.JPEG",
+      "Assets/Materials/macaron_top.mat",
+      "Assets/Materials/macaron/top/tripo_model_normal.JPEG",
+      "Assets/Materials/macaron/top/tripo_model_metallic.JPEG",
+      "Assets/Materials/macaron/top/tripo_model_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/top/tripo_model_roughness.JPEG",
+    "bytes": 573123,
+    "references": [
+      "Assets/Materials/macaron/top/tripo_model_roughness.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/top/tripo_model_metallic.JPEG",
+    "bytes": 568916,
+    "references": [
+      "Assets/Materials/macaron/top/tripo_model_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/top/tripo_model_basecolor.JPEG",
+    "bytes": 542805,
+    "references": [
+      "Assets/Materials/macaron/top/tripo_model_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/top/tripo_model_normal.JPEG",
+    "bytes": 326973,
+    "references": [
+      "Assets/Materials/macaron/top/tripo_model_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron_middle.mat",
+    "bytes": 3951,
+    "references": [
+      "Assets/Materials/macaron/middle/middle_basecolor.JPEG",
+      "Assets/Materials/macaron_middle.mat",
+      "Assets/Materials/macaron/middle/middlel_metallic.JPEG",
+      "Assets/Materials/macaron/middle/middle_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/middle/middle_normal.JPEG",
+    "bytes": 346469,
+    "references": [
+      "Assets/Materials/macaron/middle/middle_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/middle/middlel_metallic.JPEG",
+    "bytes": 297306,
+    "references": [
+      "Assets/Materials/macaron/middle/middlel_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/middle/middle_basecolor.JPEG",
+    "bytes": 512861,
+    "references": [
+      "Assets/Materials/macaron/middle/middle_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron_dec.mat",
+    "bytes": 3994,
+    "references": [
+      "Assets/Materials/macaron/decoration/decoration_basecolor.JPEG",
+      "Assets/Materials/macaron_dec.mat",
+      "Assets/Materials/macaron/decoration/decoration_metallic.JPEG",
+      "Assets/Materials/macaron/decoration/decoration_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/decoration/decoration_basecolor.JPEG",
+    "bytes": 461873,
+    "references": [
+      "Assets/Materials/macaron/decoration/decoration_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/decoration/decoration_normal.JPEG",
+    "bytes": 293742,
+    "references": [
+      "Assets/Materials/macaron/decoration/decoration_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/decoration/decoration_metallic.JPEG",
+    "bytes": 280659,
+    "references": [
+      "Assets/Materials/macaron/decoration/decoration_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron_bottom.mat",
+    "bytes": 4028,
+    "references": [
+      "Assets/Materials/macaron_bottom.mat",
+      "Assets/Materials/macaron/bottom/bottom_metallic.JPEG",
+      "Assets/Materials/macaron/bottom/bottom_basecolor.JPEG",
+      "Assets/Materials/macaron/bottom/bottom_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/bottom/bottom_normal.JPEG",
+    "bytes": 337143,
+    "references": [
+      "Assets/Materials/macaron/bottom/bottom_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/bottom/bottom_basecolor.JPEG",
+    "bytes": 340371,
+    "references": [
+      "Assets/Materials/macaron/bottom/bottom_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/macaron/bottom/bottom_metallic.JPEG",
+    "bytes": 308380,
+    "references": [
+      "Assets/Materials/macaron/bottom/bottom_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_shoot_bubble2.wav",
+    "bytes": 142964,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_shoot_bubble2.wav"
+    ]
+  },
+  {
+    "path": "Assets/prefab/ChocolatePrefab.prefab",
+    "bytes": 10318,
+    "references": [
+      "Assets/Model/chocolate.fbx",
+      "Assets/Scripts/Interaction/TouchParticleFeedback.cs",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/prefab/ChocolatePrefab.prefab",
+      "Assets/Scripts/Interaction/SoftTouchDeformationController.cs",
+      "Assets/Scripts/Interaction/SoftTouchFeedback.cs",
+      "Assets/Epic Toon FX/Sound/etfx_explosion_minimagic2.wav"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_explosion_minimagic2.wav",
+    "bytes": 187940,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_explosion_minimagic2.wav"
+    ]
+  },
+  {
+    "path": "Assets/Model/chocolate.fbx",
+    "bytes": 38108,
+    "references": [
+      "Assets/Model/chocolate.fbx",
+      "Assets/Materials/chocolate.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/chocolate.mat",
+    "bytes": 3739,
+    "references": [
+      "Assets/Materials/chocolate.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/CandyHouse.prefab",
+    "bytes": 4314,
+    "references": [
+      "Assets/prefab/CandyHouse.prefab",
+      "Assets/Model/candyhouse.fbx",
+      "Assets/Scripts/Interaction/CompletionHouseSoftInteraction.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Interaction/CompletionHouseSoftInteraction.cs",
+    "bytes": 17507,
+    "references": [
+      "Assets/Scripts/Interaction/CompletionHouseSoftInteraction.cs"
+    ]
+  },
+  {
+    "path": "Assets/Model/candyhouse.fbx",
+    "bytes": 27605628,
+    "references": [
+      "Assets/Materials/candyhouse/candyhouse.mat",
+      "Assets/Model/candyhouse.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/candyhouse/candyhouse.mat",
+    "bytes": 3866,
+    "references": [
+      "Assets/Materials/candyhouse/candyhouse.mat",
+      "Assets/Materials/candyhouse/candyhouse_basecolor.JPEG",
+      "Assets/Materials/candyhouse/candyhouse_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/candyhouse/candyhouse_normal.PNG",
+    "bytes": 5170816,
+    "references": [
+      "Assets/Materials/candyhouse/candyhouse_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/candyhouse/candyhouse_basecolor.JPEG",
+    "bytes": 2536983,
+    "references": [
+      "Assets/Materials/candyhouse/candyhouse_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/prefab/CandyLittleHouse.prefab",
+    "bytes": 4323,
+    "references": [
+      "Assets/prefab/CandyLittleHouse.prefab",
+      "Assets/Model/CandylittleHouse.fbx",
+      "Assets/Scripts/Interaction/CompletionHouseSoftInteraction.cs"
+    ]
+  },
+  {
+    "path": "Assets/Model/CandylittleHouse.fbx",
+    "bytes": 26291196,
+    "references": [
+      "Assets/Materials/candylittlehouse/candylittlehouse.mat",
+      "Assets/Model/CandylittleHouse.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/candylittlehouse/candylittlehouse.mat",
+    "bytes": 3952,
+    "references": [
+      "Assets/Materials/candylittlehouse/candylittlehouse_basecolor.JPEG",
+      "Assets/Materials/candylittlehouse/candylittlehouse.mat",
+      "Assets/Materials/candylittlehouse/candylittlehouse_metallic.JPEG",
+      "Assets/Materials/candylittlehouse/candylittlehouse_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/candylittlehouse/candylittlehouse_metallic.JPEG",
+    "bytes": 1144650,
+    "references": [
+      "Assets/Materials/candylittlehouse/candylittlehouse_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/candylittlehouse/candylittlehouse_normal.PNG",
+    "bytes": 4608589,
+    "references": [
+      "Assets/Materials/candylittlehouse/candylittlehouse_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/candylittlehouse/candylittlehouse_basecolor.JPEG",
+    "bytes": 2012670,
+    "references": [
+      "Assets/Materials/candylittlehouse/candylittlehouse_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/prefab/CookiePrefab.prefab",
+    "bytes": 10306,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_target_hit.wav",
+      "Assets/Scripts/Interaction/TouchParticleFeedback.cs",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/prefab/CookiePrefab.prefab",
+      "Assets/Scripts/Interaction/SoftTouchDeformationController.cs",
+      "Assets/Scripts/Interaction/SoftTouchFeedback.cs",
+      "Assets/Model/cookie.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_target_hit.wav",
+    "bytes": 241680,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_target_hit.wav"
+    ]
+  },
+  {
+    "path": "Assets/Model/cookie.fbx",
+    "bytes": 32348,
+    "references": [
+      "Assets/Materials/cookie.mat",
+      "Assets/Model/cookie.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/cookie.mat",
+    "bytes": 3735,
+    "references": [
+      "Assets/Materials/cookie.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/HeartPrefab.prefab",
+    "bytes": 10309,
+    "references": [
+      "Assets/Model/heart.fbx",
+      "Assets/prefab/HeartPrefab.prefab",
+      "Assets/Epic Toon FX/Sound/etfx_explosion_sparkle2.wav",
+      "Assets/Scripts/Interaction/TouchParticleFeedback.cs",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/Scripts/Interaction/SoftTouchDeformationController.cs",
+      "Assets/Scripts/Interaction/SoftTouchFeedback.cs"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_explosion_sparkle2.wav",
+    "bytes": 254412,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_explosion_sparkle2.wav"
+    ]
+  },
+  {
+    "path": "Assets/Model/heart.fbx",
+    "bytes": 25516,
+    "references": [
+      "Assets/Model/heart.fbx",
+      "Assets/Materials/pink.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/pink.mat",
+    "bytes": 3715,
+    "references": [
+      "Assets/Materials/pink.mat"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_13.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_13.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_11.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_11.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_08.asset",
+    "bytes": 10003243,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_08.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_15.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_15.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_17.asset",
+    "bytes": 10003232,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_17.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_10.asset",
+    "bytes": 10003242,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_10.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_09.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_09.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_12.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_12.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_16.asset",
+    "bytes": 10003241,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_16.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_PanoramaSphere.asset",
+    "bytes": 303845,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_PanoramaSphere.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_14.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_14.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_18.asset",
+    "bytes": 10003233,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_18.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_01.asset",
+    "bytes": 10003246,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_01.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_03.asset",
+    "bytes": 10003245,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_03.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_07.asset",
+    "bytes": 10003245,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_07.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_05.asset",
+    "bytes": 10003249,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_05.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_02.asset",
+    "bytes": 10003244,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_02.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_19.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_19.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_00.asset",
+    "bytes": 10003248,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_00.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_04.asset",
+    "bytes": 10003249,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_04.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_06.asset",
+    "bytes": 10003244,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/NestedNature/Meshes/BubbleWorld_Layer_06.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_13.asset",
+    "bytes": 10003222,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_13.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_11.asset",
+    "bytes": 10003233,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_11.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_08.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_08.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_15.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_15.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_17.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_17.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_10.asset",
+    "bytes": 10003241,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_10.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_09.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_09.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_12.asset",
+    "bytes": 10003233,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_12.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_16.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_16.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_PanoramaSphere.asset",
+    "bytes": 303845,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_PanoramaSphere.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_14.asset",
+    "bytes": 10003234,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_14.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_18.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_18.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_01.asset",
+    "bytes": 10003243,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_01.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_03.asset",
+    "bytes": 10003242,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_03.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_07.asset",
+    "bytes": 10003234,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_07.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_05.asset",
+    "bytes": 10003241,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_05.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_02.asset",
+    "bytes": 10003242,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_02.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_19.asset",
+    "bytes": 10003233,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_19.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_00.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_00.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_04.asset",
+    "bytes": 10003242,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_04.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_06.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/MapleNature/Meshes/BubbleWorld_Layer_06.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_13.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_13.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_11.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_11.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_08.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_08.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_15.asset",
+    "bytes": 10003237,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_15.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_17.asset",
+    "bytes": 10003234,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_17.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_10.asset",
+    "bytes": 10003241,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_10.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_09.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_09.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_12.asset",
+    "bytes": 10003245,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_12.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_16.asset",
+    "bytes": 10003237,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_16.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_PanoramaSphere.asset",
+    "bytes": 303845,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_PanoramaSphere.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_14.asset",
+    "bytes": 10003234,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_14.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_18.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_18.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_01.asset",
+    "bytes": 10003241,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_01.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_03.asset",
+    "bytes": 10003243,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_03.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_07.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_07.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_05.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_05.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_02.asset",
+    "bytes": 10003242,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_02.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_19.asset",
+    "bytes": 10003232,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_19.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_00.asset",
+    "bytes": 10003243,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_00.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_04.asset",
+    "bytes": 10003250,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_04.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_06.asset",
+    "bytes": 10003248,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Nested/Meshes/BubbleWorld_Layer_06.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_13.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_13.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_11.asset",
+    "bytes": 10003232,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_11.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_08.asset",
+    "bytes": 10003242,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_08.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_15.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_15.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_17.asset",
+    "bytes": 10003234,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_17.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_10.asset",
+    "bytes": 10003237,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_10.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_09.asset",
+    "bytes": 10003237,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_09.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_12.asset",
+    "bytes": 10003237,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_12.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_16.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_16.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_PanoramaSphere.asset",
+    "bytes": 303845,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_PanoramaSphere.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_14.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_14.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_18.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_18.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_01.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_01.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_03.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_03.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_07.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_07.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_05.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_05.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_02.asset",
+    "bytes": 10003237,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_02.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_19.asset",
+    "bytes": 10003233,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_19.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_00.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_00.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_04.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_04.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_06.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Candy/Meshes/BubbleWorld_Layer_06.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_13.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_13.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_11.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_11.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_08.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_08.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_15.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_15.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_17.asset",
+    "bytes": 10003233,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_17.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_10.asset",
+    "bytes": 10003234,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_10.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_09.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_09.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_12.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_12.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_16.asset",
+    "bytes": 10003230,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_16.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_PanoramaSphere.asset",
+    "bytes": 303845,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_PanoramaSphere.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_14.asset",
+    "bytes": 10003235,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_14.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_18.asset",
+    "bytes": 10003236,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_18.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_01.asset",
+    "bytes": 10003242,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_01.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_03.asset",
+    "bytes": 10003244,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_03.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_07.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_07.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_05.asset",
+    "bytes": 10003238,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_05.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_02.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_02.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_19.asset",
+    "bytes": 10003226,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_19.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_00.asset",
+    "bytes": 10003240,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_00.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_04.asset",
+    "bytes": 10003243,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_04.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_06.asset",
+    "bytes": 10003239,
+    "references": [
+      "Assets/Resources/MoodiumBubbleWorld/Meshes/BubbleWorld_Layer_06.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumOpening/OpeningVideoSequenceConfig.asset",
+    "bytes": 1956,
+    "references": [
+      "Assets/Video/VideoPLUS.mp4",
+      "Assets/Video/CandySqueezeAlpha.mp4",
+      "Assets/Resources/MoodiumOpening/OpeningVideoSequenceConfig.asset",
+      "Assets/prefab/MoodiEmergence.prefab",
+      "Assets/Video/FrameAdjustingCh.mp4",
+      "Assets/Video/FrameAdjustingEn.mp4",
+      "Assets/Model/Moodi_V2.fbx",
+      "Assets/Video/BagIntro.mp4",
+      "Assets/Scripts/Moodium/Opening/OpeningVideoSequenceConfig.cs",
+      "Assets/Video/newnaturesqueeze.mp4"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/OpeningVideoSequenceConfig.cs",
+    "bytes": 4552,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/OpeningVideoSequenceConfig.cs"
+    ]
+  },
+  {
+    "path": "Assets/Video/FrameAdjustingEn.mp4",
+    "bytes": 10863389,
+    "references": [
+      "Assets/Video/FrameAdjustingEn.mp4"
+    ]
+  },
+  {
+    "path": "Assets/Video/BagIntro.mp4",
+    "bytes": 9999303,
+    "references": [
+      "Assets/Video/BagIntro.mp4"
+    ]
+  },
+  {
+    "path": "Assets/Video/VideoPLUS.mp4",
+    "bytes": 142594648,
+    "references": [
+      "Assets/Video/VideoPLUS.mp4"
+    ]
+  },
+  {
+    "path": "Assets/Video/FrameAdjustingCh.mp4",
+    "bytes": 11498201,
+    "references": [
+      "Assets/Video/FrameAdjustingCh.mp4"
+    ]
+  },
+  {
+    "path": "Assets/Video/newnaturesqueeze.mp4",
+    "bytes": 44263641,
+    "references": [
+      "Assets/Video/newnaturesqueeze.mp4"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiEmergence.prefab",
+    "bytes": 3480,
+    "references": [
+      "Assets/prefab/MoodiEmergence.prefab",
+      "Assets/Model/Moodi_V2.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodi_V2.fbx",
+    "bytes": 5800428,
+    "references": [
+      "Assets/Model/Moodi_V2.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Video/CandySqueezeAlpha.mp4",
+    "bytes": 43049790,
+    "references": [
+      "Assets/Video/CandySqueezeAlpha.mp4"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumSelection/MoodiSelectionAnimationConfig.asset",
+    "bytes": 695,
+    "references": [
+      "Assets/Model/IP_Unity_3Clips.fbx",
+      "Assets/Resources/MoodiumSelection/MoodiSelectionAnimationConfig.asset",
+      "Assets/Scripts/Moodium/Flow/MoodiSelectionAnimationConfig.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Flow/MoodiSelectionAnimationConfig.cs",
+    "bytes": 776,
+    "references": [
+      "Assets/Scripts/Moodium/Flow/MoodiSelectionAnimationConfig.cs"
+    ]
+  },
+  {
+    "path": "Assets/Model/IP_Unity_3Clips.fbx",
+    "bytes": 3848924,
+    "references": [
+      "Assets/Model/IP_Unity_3Clips.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiEmergence/CandySurface.asset",
+    "bytes": 9807597,
+    "references": [
+      "Assets/Scripts/Moodium/Reality/Emergence/SoftSurfaceSamples.cs",
+      "Assets/Resources/MoodiEmergence/CandySurface.asset"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Reality/Emergence/SoftSurfaceSamples.cs",
+    "bytes": 138,
+    "references": [
+      "Assets/Scripts/Moodium/Reality/Emergence/SoftSurfaceSamples.cs"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiEmergence/NatureSurface.asset",
+    "bytes": 5723457,
+    "references": [
+      "Assets/Resources/MoodiEmergence/NatureSurface.asset",
+      "Assets/Scripts/Moodium/Reality/Emergence/SoftSurfaceSamples.cs"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/CandyHouse.asset",
+    "bytes": 23875978,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/CandyHouse.asset",
+      "Assets/Scripts/Moodium/PointClouds/PointCloudModelAsset.cs",
+      "Assets/Resources/MoodiumPointClouds/CandyHouse Point Colours.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/PointClouds/PointCloudModelAsset.cs",
+    "bytes": 4427,
+    "references": [
+      "Assets/Scripts/Moodium/PointClouds/PointCloudModelAsset.cs"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/CandyHouse Point Colours.png",
+    "bytes": 686943,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/CandyHouse Point Colours.png"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/Oak 1.asset",
+    "bytes": 17822426,
+    "references": [
+      "Assets/Scripts/Moodium/PointClouds/PointCloudModelAsset.cs",
+      "Assets/Resources/MoodiumPointClouds/Oak 1 Point Colours.png",
+      "Assets/Resources/MoodiumPointClouds/Oak 1.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/Oak 1 Point Colours.png",
+    "bytes": 603140,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/Oak 1 Point Colours.png"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/Birch 1.asset",
+    "bytes": 17820764,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/Birch 1 Point Colours.png",
+      "Assets/Scripts/Moodium/PointClouds/PointCloudModelAsset.cs",
+      "Assets/Resources/MoodiumPointClouds/Birch 1.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/Birch 1 Point Colours.png",
+    "bytes": 594995,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/Birch 1 Point Colours.png"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/CandyLittleHouse.asset",
+    "bytes": 23876985,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/CandyLittleHouse Point Colours.png",
+      "Assets/Resources/MoodiumPointClouds/CandyLittleHouse.asset",
+      "Assets/Scripts/Moodium/PointClouds/PointCloudModelAsset.cs"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/CandyLittleHouse Point Colours.png",
+    "bytes": 592843,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/CandyLittleHouse Point Colours.png"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/Honey Jar.asset",
+    "bytes": 23782545,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/Honey Jar Point Colours.png",
+      "Assets/Resources/MoodiumPointClouds/Honey Jar.asset",
+      "Assets/Scripts/Moodium/PointClouds/PointCloudModelAsset.cs"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumPointClouds/Honey Jar Point Colours.png",
+    "bytes": 661678,
+    "references": [
+      "Assets/Resources/MoodiumPointClouds/Honey Jar Point Colours.png"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubblePlay/PaperFrame_Nature.asset",
+    "bytes": 9874,
+    "references": [
+      "Assets/Resources/MoodiumBubblePlay/PaperFrame_Nature.asset",
+      "Assets/Scripts/Moodium/BubbleWorld/Play/WishPaperFrame.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/BubbleWorld/Play/WishPaperFrame.cs",
+    "bytes": 1294,
+    "references": [
+      "Assets/Scripts/Moodium/BubbleWorld/Play/WishPaperFrame.cs"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumBubblePlay/PaperFrame_Candy.asset",
+    "bytes": 9873,
+    "references": [
+      "Assets/Scripts/Moodium/BubbleWorld/Play/WishPaperFrame.cs",
+      "Assets/Resources/MoodiumBubblePlay/PaperFrame_Candy.asset"
+    ]
+  },
+  {
+    "path": "Assets/Resources/PolySpatialSettings.asset",
+    "bytes": 3136,
+    "references": [
+      "Assets/Resources/PolySpatialSettings.asset"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/Meshing 1.unity",
+    "bytes": 61840,
+    "references": [
+      "Assets/prefab/CandyHouse.prefab",
+      "Assets/Materials/CandyTransformationMaterial.mat",
+      "Assets/Samples/PolySpatial/Meshing/Materials/TexturedMeshMat.mat",
+      "Assets/prefab/NatureBurstFlower.prefab",
+      "Assets/prefab/Wildflowers.prefab",
+      "Assets/Samples/PolySpatial/Shared/Scripts/SwiftFPSCounter.cs",
+      "Assets/prefab/HeartPrefab.prefab",
+      "Assets/UI/Image/Augmented Reality-UI.png",
+      "Assets/Moodium/Tracking/MoodiumImageReferenceLibrary.asset",
+      "Assets/Resources/Moodium/Rewards/CandyWorldRewardTable.asset",
+      "Assets/Moodium/image/NatureWorld.png",
+      "Assets/Scripts/Moodium/MoodiumAudioManager.cs",
+      "Assets/prefab/MoodiumOpening/MoodiumOpening.prefab",
+      "Assets/prefab/CandySoft.prefab",
+      "Assets/prefab/Moodi meshy.prefab",
+      "Assets/Skybox_moodium.mat",
+      "Assets/prefab/UI-PushRightHand.prefab",
+      "Assets/Epic Toon FX/Sound/etfx_explosion_mystic02.wav",
+      "Assets/Samples/PolySpatial/SwiftUI/Scripts/VolumeCameraSwiftUIManager.cs",
+      "Assets/Epic Toon FX/Sound/etfx_explosion_sparkle2.wav",
+      "Assets/prefab/NatureSoft.prefab",
+      "Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/HitDustExplosion.prefab",
+      "Assets/prefab/CandyCrack.prefab",
+      "Assets/Samples/PolySpatial/Meshing/Materials/OcclusionMeshMat.mat",
+      "Assets/UI/Moodium/WristHUD_Circle.png",
+      "Assets/Animated Trees Package/Prefabs/Animated/Birches/Birch 1.prefab",
+      "Assets/prefab/UI/Moodium_GlassPanel.prefab",
+      "Assets/UI/Moodium/WristHUD_Rounded.png",
+      "Assets/prefab/StarPrefab.prefab",
+      "Assets/Epic Toon FX/Sound/etfx_spawn.wav",
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/IvyBranchMaterial URP GROW.mat",
+      "Assets/prefab/NatureBurstMushroom.prefab",
+      "Assets/Samples/PolySpatial/Meshing/Materials/SpawnerMat.mat",
+      "Assets/prefab/CandyWorldUI.prefab",
+      "Assets/Resources/Moodium/Rewards/NatureWorldRewardTable.asset",
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/ARTnGAME/Meshing 1.unity",
+      "Assets/Moodium/image/CandyWorld.png",
+      "Assets/Resources/Moodium/MoodCheck/MoodCheckPanel.prefab",
+      "Assets/Materials/CandyCrack.mat",
+      "Assets/prefab/CandyLittleHouse.prefab",
+      "Assets/Scripts/TissueObjectTrackingSpawner.cs",
+      "Assets/Samples/PolySpatial/Resources/Unbounded_VolumeCameraConfiguration.asset",
+      "Assets/prefab/grass.prefab",
+      "Assets/prefab/Bean.prefab",
+      "Assets/Model/tracking/TissueReferenceObjectLibrary.asset",
+      "Assets/Epic Toon FX/Sound/etfx_explosion_bubble.wav",
+      "Assets/Animated Trees Package/Prefabs/Animated/Oaks/Oak 1.prefab",
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+      "Assets/prefab/SpatialTable.prefab",
+      "Assets/Samples/PolySpatial/Manipulation/Scripts/SpatialTapSelectFilter.cs",
+      "Assets/Scripts/Moodium/Calibration/SensoryBagCalibrationCoordinator.cs",
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/XAxis.mat",
+      "Assets/prefab/CandyWorlLevelSelection.prefab",
+      "Assets/Samples/PolySpatial/Meshing/Scripts/HandColliderManager.cs",
+      "Assets/prefab/MoodiumOpening/MoodiumPortalEntrance.prefab",
+      "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricMeshData.cs",
+      "Assets/Epic Toon FX/Sound/etfx_pop_balloon.wav",
+      "Assets/Data/Moodium/Worlds/MoodiumWorldDatabase.asset",
+      "Assets/Samples/PolySpatial/Shared/Models/Cube.fbx",
+      "Assets/prefab/NatureWorldUI.prefab",
+      "Assets/Samples/PolySpatial/Shared/Prefabs/TransformHandle.prefab",
+      "Assets/prefab/Debug/CandyTransformationPreview.prefab",
+      "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricDataBuilder.cs",
+      "Assets/ARTnGAME/IvyStudio/PREFABS/URP/Procedural Ivy Long EDITOR SOURCE URP.prefab",
+      "Assets/Samples/PolySpatial/Meshing/Prefabs/HandCollider.prefab",
+      "Assets/Scripts/Moodium/MoodiumAppFlowController.cs",
+      "Assets/Moodium/image/crack.png",
+      "Assets/prefab/Effects/NatureLeafFall.prefab",
+      "Assets/prefab/CookiePrefab.prefab",
+      "Assets/Materials/Moodium_ObjectPicker_Glass.mat",
+      "Assets/prefab/ChocolatePrefab.prefab",
+      "Assets/prefab/UI/WorldCard.prefab",
+      "Assets/Epic Toon FX/Sound/etfx_explosion_slime2.wav",
+      "Assets/Data/Moodium/Worlds/CandyWorld.asset",
+      "Assets/prefab/Effects/CandyFrost.prefab",
+      "Assets/prefab/UI-PushLeftHand.prefab",
+      "Assets/Scripts/Moodium/Opening/MoodiumPortalEntranceController.cs",
+      "Assets/Audio Effect/Chocolate ice cream-1s.wav",
+      "Assets/prefab/Macaron.prefab",
+      "Assets/Samples/PolySpatial/MixedReality/Prefabs/AR Default Mesh.prefab",
+      "Assets/prefab/Effects/MoodiumInteractionParticle.prefab",
+      "Assets/Samples/PolySpatial/Meshing/Scripts/MeshSwiftUIDriver.cs",
+      "Assets/Samples/PolySpatial/Meshing/Materials/WireframeMat.mat",
+      "Assets/prefab/NatureBurstClover.prefab",
+      "Assets/UI/Image/Space Creation- UI.png",
+      "Assets/Scripts/ImageTrackingCapsuleSpawner.cs",
+      "Assets/Scripts/Interaction/MoodiumInteractionVFXManager.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/CandyCrack.prefab",
+    "bytes": 3002,
+    "references": [
+      "Assets/prefab/CandyCrack.prefab",
+      "Assets/Materials/CandyCrack.mat",
+      "Assets/Scripts/Moodium/Reality/CandyWrapperCrackVisual.cs"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyCrack.mat",
+    "bytes": 937,
+    "references": [
+      "Assets/Materials/Shaders/CandyCrack.shader",
+      "Assets/Materials/CandyCrack.mat",
+      "Assets/Moodium/image/crack.png"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Shaders/CandyCrack.shader",
+    "bytes": 1156,
+    "references": [
+      "Assets/Materials/Shaders/CandyCrack.shader"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/image/crack.png",
+    "bytes": 1332984,
+    "references": [
+      "Assets/Moodium/image/crack.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Reality/CandyWrapperCrackVisual.cs",
+    "bytes": 3931,
+    "references": [
+      "Assets/Scripts/Moodium/Reality/CandyWrapperCrackVisual.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI/WorldCard.prefab",
+    "bytes": 30826,
+    "references": [
+      "Assets/prefab/UI/Moodium_GlassPanel.prefab",
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/prefab/UI/WorldCard.prefab",
+      "Assets/Scripts/Moodium/WorldCard.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+    "bytes": 319024,
+    "references": [
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/Samples/PolySpatial/Shared/Fonts/Inter/Inter-Regular.ttf",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Fonts/Inter/Inter-Regular.ttf",
+    "bytes": 278284,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Fonts/Inter/Inter-Regular.ttf"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader",
+    "bytes": 8074,
+    "references": [
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI/Moodium_GlassPanel.prefab",
+    "bytes": 16152,
+    "references": [
+      "Assets/Materials/Moodium_Glass_UI.mat",
+      "Assets/prefab/UI/Meshes/Moodium_GlassPanel_Border.asset",
+      "Assets/prefab/UI/Moodium_GlassPanel.prefab",
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/prefab/UI/Meshes/Moodium_GlassPanel_Surface.asset",
+      "Assets/Materials/Moodium_Glass_UI_Edge.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Moodium_Glass_UI.mat",
+    "bytes": 1597,
+    "references": [
+      "Assets/Materials/Moodium_Glass_UI.mat",
+      "Assets/Samples/PolySpatial/HoverComponent/ShaderGraphs/BlurredBackground.shadergraph"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/HoverComponent/ShaderGraphs/BlurredBackground.shadergraph",
+    "bytes": 16946,
+    "references": [
+      "Assets/Samples/PolySpatial/HoverComponent/ShaderGraphs/BlurredBackground.shadergraph"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI/Meshes/Moodium_GlassPanel_Border.asset",
+    "bytes": 7939,
+    "references": [
+      "Assets/prefab/UI/Meshes/Moodium_GlassPanel_Border.asset"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Moodium_Glass_UI_Edge.mat",
+    "bytes": 3856,
+    "references": [
+      "Assets/Materials/Moodium_Glass_UI_Edge.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI/Meshes/Moodium_GlassPanel_Surface.asset",
+    "bytes": 5590,
+    "references": [
+      "Assets/prefab/UI/Meshes/Moodium_GlassPanel_Surface.asset"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/WorldCard.cs",
+    "bytes": 2840,
+    "references": [
+      "Assets/Scripts/Moodium/WorldCard.cs"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricDataBuilder.cs",
+    "bytes": 2054,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricDataBuilder.cs"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Prefabs/Animated/Oaks/Oak 1.prefab",
+    "bytes": 67943,
+    "references": [
+      "Assets/Animated Trees Package/Materials/oak_bark.mat",
+      "Assets/Animated Trees Package/Prefabs/Animated/Oaks/Oak 1.prefab",
+      "Assets/Animated Trees Package/Materials/oak_leaves.mat",
+      "Assets/Animated Trees Package/Models/Oaks/oak_1.fbx",
+      "Assets/Animated Trees Package/Models/Oaks/oak_1.controller"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Models/Oaks/oak_1.controller",
+    "bytes": 2041,
+    "references": [
+      "Assets/Animated Trees Package/Models/Oaks/oak_1.fbx",
+      "Assets/Animated Trees Package/Models/Oaks/oak_1.controller"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Interaction/MoodiumInteractionVFXManager.cs",
+    "bytes": 20793,
+    "references": [
+      "Assets/Scripts/Interaction/MoodiumInteractionVFXManager.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Calibration/SensoryBagCalibrationCoordinator.cs",
+    "bytes": 15660,
+    "references": [
+      "Assets/Scripts/Moodium/Calibration/SensoryBagCalibrationCoordinator.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/NatureWorldUI.prefab",
+    "bytes": 9965,
+    "references": [
+      "Assets/Model/IP_Unity_3Clips.fbx",
+      "Assets/prefab/Moodi meshy.prefab",
+      "Assets/Materials/NatureWorldUI/NatureWorldUI.mat",
+      "Assets/Model/natureworld_lofi.fbx",
+      "Assets/prefab/NatureWorldUI.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Model/natureworld_lofi.fbx",
+    "bytes": 21756204,
+    "references": [
+      "Assets/Model/natureworld_lofi.fbx"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Moodi meshy.prefab",
+    "bytes": 10605,
+    "references": [
+      "Assets/prefab/Moodi meshy.prefab",
+      "Assets/Animations/Moodi/MoodiCompanion.controller",
+      "Assets/Scripts/Moodium/MoodiBreathingFloat.cs",
+      "Assets/Model/moodi.fbx",
+      "Assets/Model/Moodi_Rigged.fbx",
+      "Assets/Scripts/Moodium/Characters/MoodiCompanionAnimator.cs",
+      "Assets/Materials/moodi/moodi.mat"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodi_Rigged.fbx",
+    "bytes": 7506060,
+    "references": [
+      "Assets/Model/Moodi_Rigged.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/moodi.fbx",
+    "bytes": 6128828,
+    "references": [
+      "Assets/Model/moodi.fbx",
+      "Assets/Materials/moodi/moodi.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/moodi/moodi.mat",
+    "bytes": 3860,
+    "references": [
+      "Assets/Materials/moodi/base_color.png",
+      "Assets/Materials/moodi/normal.png",
+      "Assets/Materials/moodi/moodi.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/moodi/base_color.png",
+    "bytes": 4506726,
+    "references": [
+      "Assets/Materials/moodi/base_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Materials/moodi/normal.png",
+    "bytes": 3080127,
+    "references": [
+      "Assets/Materials/moodi/normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodiBreathingFloat.cs",
+    "bytes": 2390,
+    "references": [
+      "Assets/Scripts/Moodium/MoodiBreathingFloat.cs"
+    ]
+  },
+  {
+    "path": "Assets/Animations/Moodi/MoodiCompanion.controller",
+    "bytes": 61878,
+    "references": [
+      "Assets/Animations/Moodi/OriginalClips/Walk.anim",
+      "Assets/Animations/Moodi/MoodiCompanion.controller",
+      "Assets/Model/Moodi_Rigged.fbx",
+      "Assets/Animations/Moodi/OriginalClips/Happy.anim",
+      "Assets/Animations/Moodi/OriginalClips/Idle.anim",
+      "Assets/Animations/Moodi/OriginalClips/Touched.anim",
+      "Assets/Animations/Moodi/OriginalClips/Wave.anim"
+    ]
+  },
+  {
+    "path": "Assets/Animations/Moodi/OriginalClips/Touched.anim",
+    "bytes": 90417,
+    "references": [
+      "Assets/Animations/Moodi/OriginalClips/Touched.anim"
+    ]
+  },
+  {
+    "path": "Assets/Animations/Moodi/OriginalClips/Walk.anim",
+    "bytes": 67285,
+    "references": [
+      "Assets/Animations/Moodi/OriginalClips/Walk.anim"
+    ]
+  },
+  {
+    "path": "Assets/Animations/Moodi/OriginalClips/Idle.anim",
+    "bytes": 72767,
+    "references": [
+      "Assets/Animations/Moodi/OriginalClips/Idle.anim"
+    ]
+  },
+  {
+    "path": "Assets/Animations/Moodi/OriginalClips/Wave.anim",
+    "bytes": 77432,
+    "references": [
+      "Assets/Animations/Moodi/OriginalClips/Wave.anim"
+    ]
+  },
+  {
+    "path": "Assets/Animations/Moodi/OriginalClips/Happy.anim",
+    "bytes": 109482,
+    "references": [
+      "Assets/Animations/Moodi/OriginalClips/Happy.anim"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Characters/MoodiCompanionAnimator.cs",
+    "bytes": 15696,
+    "references": [
+      "Assets/Scripts/Moodium/Characters/MoodiCompanionAnimator.cs"
+    ]
+  },
+  {
+    "path": "Assets/Materials/NatureWorldUI/NatureWorldUI.mat",
+    "bytes": 3869,
+    "references": [
+      "Assets/Materials/NatureWorldUI/NatureWorldUI.mat",
+      "Assets/Materials/NatureWorldUI/natureworldlofi_basecolor.JPEG",
+      "Assets/Materials/NatureWorldUI/NatureWorldUI_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/NatureWorldUI/natureworldlofi_basecolor.JPEG",
+    "bytes": 1605973,
+    "references": [
+      "Assets/Materials/NatureWorldUI/natureworldlofi_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/NatureWorldUI/NatureWorldUI_normal.JPEG",
+    "bytes": 742506,
+    "references": [
+      "Assets/Materials/NatureWorldUI/NatureWorldUI_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/prefab/CandySoft.prefab",
+    "bytes": 6303,
+    "references": [
+      "Assets/prefab/CandySoft.prefab",
+      "Assets/Model/CandySoft.fbx",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/Audio Effect/Chocolate ice cream-1s.wav"
+    ]
+  },
+  {
+    "path": "Assets/Model/CandySoft.fbx",
+    "bytes": 23392236,
+    "references": [
+      "Assets/Materials/CandySoft/CandySoft.mat",
+      "Assets/Model/CandySoft.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandySoft/CandySoft.mat",
+    "bytes": 3864,
+    "references": [
+      "Assets/Materials/CandySoft/CandySoft.mat",
+      "Assets/Materials/CandySoft/tripo_model_basecolor.PNG",
+      "Assets/Materials/CandySoft/tripo_model_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandySoft/tripo_model_basecolor.PNG",
+    "bytes": 3090086,
+    "references": [
+      "Assets/Materials/CandySoft/tripo_model_basecolor.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandySoft/tripo_model_normal.PNG",
+    "bytes": 4047538,
+    "references": [
+      "Assets/Materials/CandySoft/tripo_model_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Audio Effect/Chocolate ice cream-1s.wav",
+    "bytes": 17180,
+    "references": [
+      "Assets/Audio Effect/Chocolate ice cream-1s.wav"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/WristHUD_Circle.png",
+    "bytes": 927,
+    "references": [
+      "Assets/UI/Moodium/WristHUD_Circle.png"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Prefabs/TransformHandle.prefab",
+    "bytes": 18212,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/Origin.mat",
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/ZAxis.mat",
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/XAxis.mat",
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/YAxis.mat",
+      "Assets/Samples/PolySpatial/Shared/Prefabs/TransformHandle.prefab",
+      "Assets/Samples/PolySpatial/Shared/Models/TransformHandle.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/Origin.mat",
+    "bytes": 3652,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/Origin.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Models/TransformHandle.fbx",
+    "bytes": 76608,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Models/TransformHandle.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/YAxis.mat",
+    "bytes": 3701,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/YAxis.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/XAxis.mat",
+    "bytes": 3701,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/XAxis.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/ZAxis.mat",
+    "bytes": 3701,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Materials/TransformHandle/ZAxis.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/SpatialTable.prefab",
+    "bytes": 6723,
+    "references": [
+      "Assets/Materials/Moodium_SpatialTable_White.mat",
+      "Assets/prefab/Meshes/Moodium_SpatialTable_Rounded.asset",
+      "Assets/prefab/SpatialTable.prefab",
+      "Assets/Scripts/Moodium/MoodiumWindowHandle.cs",
+      "Assets/Materials/Moodium_Glass_UI_Edge.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Moodium_SpatialTable_White.mat",
+    "bytes": 3730,
+    "references": [
+      "Assets/Materials/Moodium_SpatialTable_White.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Meshes/Moodium_SpatialTable_Rounded.asset",
+    "bytes": 11308,
+    "references": [
+      "Assets/prefab/Meshes/Moodium_SpatialTable_Rounded.asset"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodiumWindowHandle.cs",
+    "bytes": 5971,
+    "references": [
+      "Assets/Scripts/Moodium/MoodiumWindowHandle.cs"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_explosion_mystic02.wav",
+    "bytes": 152628,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_explosion_mystic02.wav"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Manipulation/Scripts/SpatialTapSelectFilter.cs",
+    "bytes": 1020,
+    "references": [
+      "Assets/Samples/PolySpatial/Manipulation/Scripts/SpatialTapSelectFilter.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/NatureSoft.prefab",
+    "bytes": 7037,
+    "references": [
+      "Assets/Model/NatureSoft.fbx",
+      "Assets/prefab/NatureSoft.prefab",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/Audio Effect/Chocolate ice cream-1s.wav"
+    ]
+  },
+  {
+    "path": "Assets/Model/NatureSoft.fbx",
+    "bytes": 26087052,
+    "references": [
+      "Assets/Model/NatureSoft.fbx",
+      "Assets/Materials/NatureSoft/NatureSoft.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/NatureSoft/NatureSoft.mat",
+    "bytes": 3946,
+    "references": [
+      "Assets/Materials/NatureSoft/NatureSoft_basecolor.PNG",
+      "Assets/Materials/NatureSoft/NatureSoft.mat",
+      "Assets/Materials/NatureSoft/NatureSoft_metallic.JPEG",
+      "Assets/Materials/NatureSoft/NatureSoft_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/NatureSoft/NatureSoft_metallic.JPEG",
+    "bytes": 209454,
+    "references": [
+      "Assets/Materials/NatureSoft/NatureSoft_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/NatureSoft/NatureSoft_basecolor.PNG",
+    "bytes": 4730108,
+    "references": [
+      "Assets/Materials/NatureSoft/NatureSoft_basecolor.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/NatureSoft/NatureSoft_normal.PNG",
+    "bytes": 4669573,
+    "references": [
+      "Assets/Materials/NatureSoft/NatureSoft_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/ImageTrackingCapsuleSpawner.cs",
+    "bytes": 5877,
+    "references": [
+      "Assets/Scripts/ImageTrackingCapsuleSpawner.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/grass.prefab",
+    "bytes": 4353,
+    "references": [
+      "Assets/Model/grass.fbx",
+      "Assets/prefab/grass.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Model/grass.fbx",
+    "bytes": 2479036,
+    "references": [
+      "Assets/Model/grass.fbx",
+      "Assets/Materials/grass/grass.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/grass/grass.mat",
+    "bytes": 3941,
+    "references": [
+      "Assets/Materials/grass/grass.mat",
+      "Assets/Materials/grass/tripo_node_3d7c4315-5ae2-4d9a-a17e-28409_Normal_Bake.jpg",
+      "Assets/Materials/grass/tripo_model_metallic.JPEG",
+      "Assets/Materials/grass/tripo_node_3d7c4315-5ae2-4d9a-a17e-28409_BaseColor.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Materials/grass/tripo_model_metallic.JPEG",
+    "bytes": 489397,
+    "references": [
+      "Assets/Materials/grass/tripo_model_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/grass/tripo_node_3d7c4315-5ae2-4d9a-a17e-28409_BaseColor.jpg",
+    "bytes": 959717,
+    "references": [
+      "Assets/Materials/grass/tripo_node_3d7c4315-5ae2-4d9a-a17e-28409_BaseColor.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Materials/grass/tripo_node_3d7c4315-5ae2-4d9a-a17e-28409_Normal_Bake.jpg",
+    "bytes": 230228,
+    "references": [
+      "Assets/Materials/grass/tripo_node_3d7c4315-5ae2-4d9a-a17e-28409_Normal_Bake.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_spawn.wav",
+    "bytes": 177526,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_spawn.wav"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_explosion_bubble.wav",
+    "bytes": 133324,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_explosion_bubble.wav"
+    ]
+  },
+  {
+    "path": "Assets/Data/Moodium/Worlds/CandyWorld.asset",
+    "bytes": 1364,
+    "references": [
+      "Assets/prefab/HeartPrefab.prefab",
+      "Assets/prefab/StarPrefab.prefab",
+      "Assets/prefab/Chocolate_Capsule.prefab",
+      "Assets/UI/Image/candyworld.png",
+      "Assets/prefab/Honey Jar.prefab",
+      "Assets/Music/CandyWorld_bgm.mp3",
+      "Assets/prefab/CookiePrefab.prefab",
+      "Assets/prefab/ChocolatePrefab.prefab",
+      "Assets/Scripts/Moodium/MoodiumWorldDefinition.cs",
+      "Assets/Data/Moodium/Worlds/CandyWorld.asset",
+      "Assets/prefab/Macaron.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Music/CandyWorld_bgm.mp3",
+    "bytes": 2880619,
+    "references": [
+      "Assets/Music/CandyWorld_bgm.mp3"
+    ]
+  },
+  {
+    "path": "Assets/UI/Image/candyworld.png",
+    "bytes": 2145794,
+    "references": [
+      "Assets/UI/Image/candyworld.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Chocolate_Capsule.prefab",
+    "bytes": 25611,
+    "references": [
+      "Assets/Scripts/Interaction/TouchParticleFeedback.cs",
+      "Assets/prefab/Chocolate_Capsule.prefab",
+      "Assets/Animations/ChocolateCapsule.controller",
+      "Assets/Model/Chocolate_Capsule.fbx",
+      "Assets/Scripts/Interaction/MoodiumTouchAudio.cs",
+      "Assets/Audio Effect/Chocolate ice cream-1s.wav",
+      "Assets/Scripts/Interaction/ChocolateCapsuleInteraction.cs"
+    ]
+  },
+  {
+    "path": "Assets/Animations/ChocolateCapsule.controller",
+    "bytes": 2037,
+    "references": [
+      "Assets/Animations/ChocolateCrack_Combined.anim",
+      "Assets/Animations/ChocolateCapsule.controller"
+    ]
+  },
+  {
+    "path": "Assets/Animations/ChocolateCrack_Combined.anim",
+    "bytes": 488573,
+    "references": [
+      "Assets/Animations/ChocolateCrack_Combined.anim"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Interaction/ChocolateCapsuleInteraction.cs",
+    "bytes": 15549,
+    "references": [
+      "Assets/Scripts/Interaction/ChocolateCapsuleInteraction.cs"
+    ]
+  },
+  {
+    "path": "Assets/Model/Chocolate_Capsule.fbx",
+    "bytes": 3467532,
+    "references": [
+      "Assets/Model/Chocolate_Capsule.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodiumWorldDefinition.cs",
+    "bytes": 1284,
+    "references": [
+      "Assets/Scripts/Moodium/MoodiumWorldDefinition.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Honey Jar.prefab",
+    "bytes": 4601,
+    "references": [
+      "Assets/prefab/Honey Jar.prefab",
+      "Assets/Model/Honey Jar.fbx",
+      "Assets/Materials/Honey Jar/Honey Jar.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Honey Jar/Honey Jar.mat",
+    "bytes": 3864,
+    "references": [
+      "Assets/Materials/Honey Jar/Honey Jar base color.png",
+      "Assets/Materials/Honey Jar/Honey Jar_normal.png",
+      "Assets/Materials/Honey Jar/Honey Jar.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Honey Jar/Honey Jar_normal.png",
+    "bytes": 2696514,
+    "references": [
+      "Assets/Materials/Honey Jar/Honey Jar_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Honey Jar/Honey Jar base color.png",
+    "bytes": 4185544,
+    "references": [
+      "Assets/Materials/Honey Jar/Honey Jar base color.png"
+    ]
+  },
+  {
+    "path": "Assets/Model/Honey Jar.fbx",
+    "bytes": 27307660,
+    "references": [
+      "Assets/Model/Honey Jar.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Models/Cube.fbx",
+    "bytes": 58144,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Models/Cube.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricMeshData.cs",
+    "bytes": 1455,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricMeshData.cs"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Materials/OcclusionMeshMat.mat",
+    "bytes": 3607,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Materials/OcclusionMeshMat.mat"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodiumAppFlowController.cs",
+    "bytes": 95531,
+    "references": [
+      "Assets/Scripts/Moodium/MoodiumAppFlowController.cs"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Scripts/HandColliderManager.cs",
+    "bytes": 3238,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Scripts/HandColliderManager.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/WristHUD_Rounded.png",
+    "bytes": 998,
+    "references": [
+      "Assets/UI/Moodium/WristHUD_Rounded.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/Tracking/MoodiumImageReferenceLibrary.asset",
+    "bytes": 1638,
+    "references": [
+      "Assets/Moodium/Tracking/MoodiumImageReferenceLibrary.asset",
+      "Assets/Moodium/candytracking.png",
+      "Assets/Moodium/TestImageTracking.png",
+      "Assets/Moodium/naturetracking.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/TestImageTracking.png",
+    "bytes": 990891,
+    "references": [
+      "Assets/Moodium/TestImageTracking.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/candytracking.png",
+    "bytes": 1545749,
+    "references": [
+      "Assets/Moodium/candytracking.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/naturetracking.png",
+    "bytes": 2144641,
+    "references": [
+      "Assets/Moodium/naturetracking.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Debug/CandyTransformationPreview.prefab",
+    "bytes": 24048,
+    "references": [
+      "Assets/Materials/CandyTransformationMaterial.mat",
+      "Assets/Scripts/Moodium/Reality/CandyTransformationPreviewController.cs",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/prefab/Debug/CandyTransformationPreview.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Reality/CandyTransformationPreviewController.cs",
+    "bytes": 5394,
+    "references": [
+      "Assets/Scripts/Moodium/Reality/CandyTransformationPreviewController.cs"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+    "bytes": 2264677,
+    "references": [
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+    "bytes": 9739,
+    "references": [
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset",
+      "Assets/TextMesh Pro/Fonts/LiberationSans.ttf",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Fonts/LiberationSans.ttf",
+    "bytes": 350200,
+    "references": [
+      "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyTransformationMaterial.mat",
+    "bytes": 4651,
+    "references": [
+      "Assets/Materials/CandyTransformationMaterial.mat",
+      "Assets/Moodium/Textures/CandySparkleMask.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/Textures/CandySparkleMask.png",
+    "bytes": 380343,
+    "references": [
+      "Assets/Moodium/Textures/CandySparkleMask.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Effects/NatureLeafFall.prefab",
+    "bytes": 118820,
+    "references": [
+      "Assets/Materials/Particles/NatureLeafFall.mat",
+      "Assets/Moodium/image/leaf3.png",
+      "Assets/Moodium/image/leaf.png",
+      "Assets/Scripts/Moodium/NatureLeafParticleController.cs",
+      "Assets/prefab/Effects/NatureLeafFall.prefab",
+      "Assets/Moodium/image/leaf2.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/image/leaf.png",
+    "bytes": 3675788,
+    "references": [
+      "Assets/Moodium/image/leaf.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/image/leaf3.png",
+    "bytes": 2493145,
+    "references": [
+      "Assets/Moodium/image/leaf3.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/image/leaf2.png",
+    "bytes": 2239874,
+    "references": [
+      "Assets/Moodium/image/leaf2.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/NatureLeafParticleController.cs",
+    "bytes": 15165,
+    "references": [
+      "Assets/Scripts/Moodium/NatureLeafParticleController.cs"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Particles/NatureLeafFall.mat",
+    "bytes": 2573,
+    "references": [
+      "Assets/Materials/Particles/NatureLeafFall.mat",
+      "Assets/Moodium/image/leaf.png"
+    ]
+  },
+  {
+    "path": "Assets/Resources/Moodium/MoodCheck/MoodCheckPanel.prefab",
+    "bytes": 313442,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_btn_primary_9slice.png",
+      "Assets/Materials/Moodium_Glass_UI.mat",
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_calm.png",
+      "Assets/Scripts/Moodium/MoodCheck/MoodRecommendationView.cs",
+      "Assets/UI/Moodium/MoodCheck/png/moodi_calm.png",
+      "Assets/UI/Moodium/MoodCheck/png/mood_plate_colorfield.png",
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/UI/Moodium/MoodCheck/png/mood_chip_dot.png",
+      "Assets/Scripts/Moodium/MoodCheck/MoodCheckPlateHandle.cs",
+      "Assets/UI/Moodium/MoodCheck/png/moodi_low.png",
+      "Assets/Resources/Moodium/MoodCheck/MoodCheckPanel.prefab",
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_tense.png",
+      "Assets/Scripts/Moodium/MoodCheck/MoodCheckFontReferences.cs",
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+      "Assets/UI/Moodium/MoodCheck/png/moodi_tense.png",
+      "Assets/UI/Moodium/MoodCheck/png/zone_ring_dashed.png",
+      "Assets/Scripts/Moodium/MoodCheck/MoodCheckPlate.cs",
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_happy.png",
+      "Assets/UI/Moodium/MoodCheck/png/mood_token_halo.png",
+      "Assets/Scripts/Moodium/MoodiumSpatialButton.cs",
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckPanel_Border.asset",
+      "Assets/UI/Moodium/MoodCheck/png/mood_plate_lens.png",
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckLine_White.mat",
+      "Assets/UI/Moodium/MoodCheck/png/mood_btn_glass_9slice.png",
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckButton_Surface.asset",
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckAxis_Outline.mat",
+      "Assets/UI/Moodium/MoodCheck/png/mood_plate_well.png",
+      "Assets/UI/Moodium/MoodCheck/png/moodi_happy.png",
+      "Assets/UI/Moodium/MoodCheck/png/mood_panel_rim.png",
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckPanel_Surface.asset",
+      "Assets/Materials/Moodium_Glass_UI_Edge.mat",
+      "Assets/UI/Moodium/MoodCheck/png/moodi_neutral.png",
+      "Assets/UI/Moodium/MoodCheck/png/glow_radial.png",
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_low.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_glyph_calm.png",
+    "bytes": 5764,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_calm.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/moodi_tense.png",
+    "bytes": 83114,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/moodi_tense.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_plate_lens.png",
+    "bytes": 269246,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_plate_lens.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodCheck/MoodCheckFontReferences.cs",
+    "bytes": 506,
+    "references": [
+      "Assets/Scripts/Moodium/MoodCheck/MoodCheckFontReferences.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_btn_primary_9slice.png",
+    "bytes": 5139,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_btn_primary_9slice.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckButton_Surface.asset",
+    "bytes": 5105,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckButton_Surface.asset"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckLine_White.mat",
+    "bytes": 1772,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckLine_White.mat"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_panel_rim.png",
+    "bytes": 18294,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_panel_rim.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/glow_radial.png",
+    "bytes": 25293,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/glow_radial.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodCheck/MoodRecommendationView.cs",
+    "bytes": 9216,
+    "references": [
+      "Assets/Scripts/Moodium/MoodCheck/MoodRecommendationView.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_token_halo.png",
+    "bytes": 250177,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_token_halo.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_chip_dot.png",
+    "bytes": 1932,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_chip_dot.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckPanel_Surface.asset",
+    "bytes": 6066,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckPanel_Surface.asset"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/moodi_calm.png",
+    "bytes": 82811,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/moodi_calm.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/zone_ring_dashed.png",
+    "bytes": 11531,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/zone_ring_dashed.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_glyph_tense.png",
+    "bytes": 6135,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_tense.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+    "bytes": 7171389,
+    "references": [
+      "Assets/TextMesh Pro/Fonts/AlibabaPuHuiTi-2-35-Thin.ttf",
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+    ]
+  },
+  {
+    "path": "Assets/TextMesh Pro/Fonts/AlibabaPuHuiTi-2-35-Thin.ttf",
+    "bytes": 8465416,
+    "references": [
+      "Assets/TextMesh Pro/Fonts/AlibabaPuHuiTi-2-35-Thin.ttf"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_btn_glass_9slice.png",
+    "bytes": 5071,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_btn_glass_9slice.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_plate_well.png",
+    "bytes": 89572,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_plate_well.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodiumSpatialButton.cs",
+    "bytes": 4683,
+    "references": [
+      "Assets/Scripts/Moodium/MoodiumSpatialButton.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/moodi_happy.png",
+    "bytes": 82078,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/moodi_happy.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_glyph_low.png",
+    "bytes": 5556,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_low.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_plate_colorfield.png",
+    "bytes": 727230,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_plate_colorfield.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodCheck/MoodCheckPlateHandle.cs",
+    "bytes": 1541,
+    "references": [
+      "Assets/Scripts/Moodium/MoodCheck/MoodCheckPlateHandle.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/mood_glyph_happy.png",
+    "bytes": 6004,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/mood_glyph_happy.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/moodi_low.png",
+    "bytes": 81356,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/moodi_low.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodCheck/MoodCheckPlate.cs",
+    "bytes": 9803,
+    "references": [
+      "Assets/Scripts/Moodium/MoodCheck/MoodCheckPlate.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckPanel_Border.asset",
+    "bytes": 8897,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckPanel_Border.asset"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/png/moodi_neutral.png",
+    "bytes": 82162,
+    "references": [
+      "Assets/UI/Moodium/MoodCheck/png/moodi_neutral.png"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckAxis_Outline.mat",
+    "bytes": 1898,
+    "references": [
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+      "Assets/UI/Moodium/MoodCheck/Generated/MoodCheckAxis_Outline.mat",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Resources/Unbounded_VolumeCameraConfiguration.asset",
+    "bytes": 493,
+    "references": [
+      "Assets/Samples/PolySpatial/Resources/Unbounded_VolumeCameraConfiguration.asset"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/PREFABS/URP/Procedural Ivy Long EDITOR SOURCE URP.prefab",
+    "bytes": 4267,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/IvyBranchMaterial URP.mat",
+      "Assets/ARTnGAME/IvyStudio/Scripts/IvyGeneratorTREANT.cs",
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Flower URP.prefab",
+      "Assets/ARTnGAME/IvyStudio/PREFABS/URP/Procedural Ivy Long EDITOR SOURCE URP.prefab",
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Leafs URP.prefab"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/URP/IvyBranchMaterial URP.mat",
+    "bytes": 4653,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/IvyBranchMaterial URP.mat"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/URP/Flower URP.prefab",
+    "bytes": 3226,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Flower URP.mat",
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Flower URP.prefab"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/URP/Flower URP.mat",
+    "bytes": 4436,
+    "references": [
+      "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Shaders/InfiniGRASS URP/InfiniGRASS_Transp_Wind_FENCE 1-ROOF URP1.shader",
+      "Assets/ARTnGAME/IvyStudio/Materials/Resources/ivyGizmo.png",
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Flower URP.mat",
+      "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Textures - Materials/flowers DAISY.png",
+      "Assets/ARTnGAME/IvyStudio/Materials/Textures/flower_sheet 2.png"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Textures - Materials/flowers DAISY.png",
+    "bytes": 399580,
+    "references": [
+      "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Textures - Materials/flowers DAISY.png"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/Resources/ivyGizmo.png",
+    "bytes": 26899,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/Resources/ivyGizmo.png"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/Textures/flower_sheet 2.png",
+    "bytes": 26899,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/Textures/flower_sheet 2.png"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Shaders/InfiniGRASS URP/InfiniGRASS_Transp_Wind_FENCE 1-ROOF URP1.shader",
+    "bytes": 109358,
+    "references": [
+      "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Shaders/InfiniGRASS URP/InfiniGRASS_Transp_Wind_FENCE 1-ROOF URP1.shader"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/URP/Leafs URP.prefab",
+    "bytes": 5574,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Leafs URP.mat",
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Leafs URP.prefab"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/URP/Leafs URP.mat",
+    "bytes": 5674,
+    "references": [
+      "Assets/ARTnGAME/InfiniGRASS/Scripts/Scripts_Shaders 1.5/Interactive grass/Interactive Transparent/InfiniGRASS_Transp_Wind_FENCE 1-ROOF SHAPING MASK NOISE IVY URP.shader",
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/Leafs URP.mat",
+      "Assets/ARTnGAME/IvyStudio/Materials/Textures/Leaf 3.png",
+      "Assets/ARTnGAME/IvyStudio/Materials/Textures/flower_sheet 2.png"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/InfiniGRASS/Scripts/Scripts_Shaders 1.5/Interactive grass/Interactive Transparent/InfiniGRASS_Transp_Wind_FENCE 1-ROOF SHAPING MASK NOISE IVY URP.shader",
+    "bytes": 153792,
+    "references": [
+      "Assets/ARTnGAME/InfiniGRASS/Scripts/Scripts_Shaders 1.5/Interactive grass/Interactive Transparent/InfiniGRASS_Transp_Wind_FENCE 1-ROOF SHAPING MASK NOISE IVY URP.shader"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/Textures/Leaf 3.png",
+    "bytes": 1312037,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/Textures/Leaf 3.png"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Scripts/IvyGeneratorTREANT.cs",
+    "bytes": 65984,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Scripts/IvyGeneratorTREANT.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Wildflowers.prefab",
+    "bytes": 4362,
+    "references": [
+      "Assets/prefab/Wildflowers.prefab",
+      "Assets/Model/Wildflowers.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/Wildflowers.fbx",
+    "bytes": 8761420,
+    "references": [
+      "Assets/Model/Wildflowers.fbx",
+      "Assets/Materials/Wildflowers/Wildflowers.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Wildflowers/Wildflowers.mat",
+    "bytes": 3866,
+    "references": [
+      "Assets/Materials/Wildflowers/Wildflowers_normal.PNG",
+      "Assets/Materials/Wildflowers/Wildflowers.mat",
+      "Assets/Materials/Wildflowers/Wildflowers_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Wildflowers/Wildflowers_normal.PNG",
+    "bytes": 3080818,
+    "references": [
+      "Assets/Materials/Wildflowers/Wildflowers_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Wildflowers/Wildflowers_basecolor.JPEG",
+    "bytes": 2515218,
+    "references": [
+      "Assets/Materials/Wildflowers/Wildflowers_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/TissueObjectTrackingSpawner.cs",
+    "bytes": 8726,
+    "references": [
+      "Assets/Scripts/TissueObjectTrackingSpawner.cs"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/MixedReality/Prefabs/AR Default Mesh.prefab",
+    "bytes": 3367,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Materials/TexturedMeshMat.mat",
+      "Assets/Samples/PolySpatial/Meshing/Scripts/BarycentricDataBuilder.cs",
+      "Assets/Samples/PolySpatial/MixedReality/Prefabs/AR Default Mesh.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Materials/TexturedMeshMat.mat",
+    "bytes": 3875,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Materials/TexturedMeshMat.mat"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_pop_balloon.wav",
+    "bytes": 103060,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_pop_balloon.wav"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Materials/SpawnerMat.mat",
+    "bytes": 3779,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Materials/SpawnerMat.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI-PushLeftHand.prefab",
+    "bytes": 4389,
+    "references": [
+      "Assets/Model/push-lefthand.fbx",
+      "Assets/prefab/UI-PushLeftHand.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Model/push-lefthand.fbx",
+    "bytes": 4254748,
+    "references": [
+      "Assets/Model/push-lefthand.fbx",
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/Transparent White hand.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/Transparent White hand.mat",
+    "bytes": 3905,
+    "references": [
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/Transparent White hand.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Materials/WireframeMat.mat",
+    "bytes": 3862,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Materials/WireFrameSplitLR.shadergraph",
+      "Assets/Samples/PolySpatial/Meshing/Materials/WireframeMat.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Materials/WireFrameSplitLR.shadergraph",
+    "bytes": 40476,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Materials/WireFrameSplitLR.shadergraph"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodiumAudioManager.cs",
+    "bytes": 9556,
+    "references": [
+      "Assets/Scripts/Moodium/MoodiumAudioManager.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/CandyWorlLevelSelection.prefab",
+    "bytes": 4383,
+    "references": [
+      "Assets/prefab/CandyWorlLevelSelection.prefab",
+      "Assets/Model/CandyWorldLevelSelection.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/CandyWorldLevelSelection.fbx",
+    "bytes": 74769116,
+    "references": [
+      "Assets/Materials/CandyWorldLevelSelection.mat",
+      "Assets/Model/CandyWorldLevelSelection.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldLevelSelection.mat",
+    "bytes": 3988,
+    "references": [
+      "Assets/Materials/CandyWorldLevelSelection/tripo_candyworldmodel_metallic.JPEG",
+      "Assets/Materials/CandyWorldLevelSelection/tripo_model_basecolor.JPEG",
+      "Assets/Materials/CandyWorldLevelSelection/tripo_candyworldmodel_normal.JPEG",
+      "Assets/Materials/CandyWorldLevelSelection.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldLevelSelection/tripo_candyworldmodel_normal.JPEG",
+    "bytes": 633956,
+    "references": [
+      "Assets/Materials/CandyWorldLevelSelection/tripo_candyworldmodel_normal.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldLevelSelection/tripo_model_basecolor.JPEG",
+    "bytes": 1186435,
+    "references": [
+      "Assets/Materials/CandyWorldLevelSelection/tripo_model_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldLevelSelection/tripo_candyworldmodel_metallic.JPEG",
+    "bytes": 1052928,
+    "references": [
+      "Assets/Materials/CandyWorldLevelSelection/tripo_candyworldmodel_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Data/Moodium/Worlds/MoodiumWorldDatabase.asset",
+    "bytes": 781,
+    "references": [
+      "Assets/Data/Moodium/Worlds/CloudWorld.asset",
+      "Assets/Scripts/Moodium/MoodiumWorldDatabase.cs",
+      "Assets/Data/Moodium/Worlds/DreamWorld.asset",
+      "Assets/Data/Moodium/Worlds/MoodiumWorldDatabase.asset",
+      "Assets/Data/Moodium/Worlds/NatureWorld.asset",
+      "Assets/Data/Moodium/Worlds/CandyWorld.asset",
+      "Assets/Data/Moodium/Worlds/WaterWorld.asset"
+    ]
+  },
+  {
+    "path": "Assets/Data/Moodium/Worlds/CloudWorld.asset",
+    "bytes": 696,
+    "references": [
+      "Assets/Data/Moodium/Worlds/CloudWorld.asset",
+      "Assets/UI/Image/cloudworld.png",
+      "Assets/Scripts/Moodium/MoodiumWorldDefinition.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Image/cloudworld.png",
+    "bytes": 1164696,
+    "references": [
+      "Assets/UI/Image/cloudworld.png"
+    ]
+  },
+  {
+    "path": "Assets/Data/Moodium/Worlds/NatureWorld.asset",
+    "bytes": 786,
+    "references": [
+      "Assets/UI/Image/natureworld.png",
+      "Assets/Music/NatureWorld_bgm.mp3",
+      "Assets/Scripts/Moodium/MoodiumWorldDefinition.cs",
+      "Assets/Data/Moodium/Worlds/NatureWorld.asset"
+    ]
+  },
+  {
+    "path": "Assets/UI/Image/natureworld.png",
+    "bytes": 1187638,
+    "references": [
+      "Assets/UI/Image/natureworld.png"
+    ]
+  },
+  {
+    "path": "Assets/Music/NatureWorld_bgm.mp3",
+    "bytes": 4800724,
+    "references": [
+      "Assets/Music/NatureWorld_bgm.mp3"
+    ]
+  },
+  {
+    "path": "Assets/Data/Moodium/Worlds/DreamWorld.asset",
+    "bytes": 696,
+    "references": [
+      "Assets/Data/Moodium/Worlds/DreamWorld.asset",
+      "Assets/UI/Image/dreamworld.png",
+      "Assets/Scripts/Moodium/MoodiumWorldDefinition.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Image/dreamworld.png",
+    "bytes": 2140990,
+    "references": [
+      "Assets/UI/Image/dreamworld.png"
+    ]
+  },
+  {
+    "path": "Assets/Data/Moodium/Worlds/WaterWorld.asset",
+    "bytes": 696,
+    "references": [
+      "Assets/UI/Image/waterworld.png",
+      "Assets/Scripts/Moodium/MoodiumWorldDefinition.cs",
+      "Assets/Data/Moodium/Worlds/WaterWorld.asset"
+    ]
+  },
+  {
+    "path": "Assets/UI/Image/waterworld.png",
+    "bytes": 752550,
+    "references": [
+      "Assets/UI/Image/waterworld.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/MoodiumWorldDatabase.cs",
+    "bytes": 558,
+    "references": [
+      "Assets/Scripts/Moodium/MoodiumWorldDatabase.cs"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Prefabs/Animated/Birches/Birch 1.prefab",
+    "bytes": 67831,
+    "references": [
+      "Assets/Animated Trees Package/Prefabs/Animated/Birches/Birch 1.prefab",
+      "Assets/Animated Trees Package/Models/Birches/birch_1.fbx",
+      "Assets/Animated Trees Package/Materials/birch_bark.mat",
+      "Assets/Animated Trees Package/Materials/birch_leaves_1.mat",
+      "Assets/Animated Trees Package/Models/Birches/birch_1.controller"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Models/Birches/birch_1.fbx",
+    "bytes": 771836,
+    "references": [
+      "Assets/Animated Trees Package/Models/Birches/birch_1.fbx",
+      "Assets/Animated Trees Package/Materials/birch_bark.mat",
+      "Assets/Animated Trees Package/Materials/birch_leaves_1.mat"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/birch_leaves_1.mat",
+    "bytes": 5399,
+    "references": [
+      "Assets/Animated Trees Package/Textures/birch_leaves_1_color.png",
+      "Assets/Animated Trees Package/Materials/birch_leaves_1.mat",
+      "Assets/Animated Trees Package/Textures/birch_leaves_1_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/birch_leaves_1_color.png",
+    "bytes": 2895572,
+    "references": [
+      "Assets/Animated Trees Package/Textures/birch_leaves_1_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/birch_leaves_1_normal.png",
+    "bytes": 1048580,
+    "references": [
+      "Assets/Animated Trees Package/Textures/birch_leaves_1_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Materials/birch_bark.mat",
+    "bytes": 5023,
+    "references": [
+      "Assets/Animated Trees Package/Materials/birch_bark.mat",
+      "Assets/Animated Trees Package/Textures/birch_bark_color.png",
+      "Assets/Animated Trees Package/Textures/birch_bark_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/birch_bark_color.png",
+    "bytes": 8375877,
+    "references": [
+      "Assets/Animated Trees Package/Textures/birch_bark_color.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Textures/birch_bark_normal.png",
+    "bytes": 5841131,
+    "references": [
+      "Assets/Animated Trees Package/Textures/birch_bark_normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Animated Trees Package/Models/Birches/birch_1.controller",
+    "bytes": 2042,
+    "references": [
+      "Assets/Animated Trees Package/Models/Birches/birch_1.fbx",
+      "Assets/Animated Trees Package/Models/Birches/birch_1.controller"
+    ]
+  },
+  {
+    "path": "Assets/UI/Image/Space Creation- UI.png",
+    "bytes": 4320495,
+    "references": [
+      "Assets/UI/Image/Space Creation- UI.png"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/SwiftUI/Scripts/VolumeCameraSwiftUIManager.cs",
+    "bytes": 1601,
+    "references": [
+      "Assets/Samples/PolySpatial/SwiftUI/Scripts/VolumeCameraSwiftUIManager.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Effects/MoodiumInteractionParticle.prefab",
+    "bytes": 118954,
+    "references": [
+      "Assets/Moodium/Materials/MoodiumParticleCircle.mat",
+      "Assets/prefab/Effects/MoodiumInteractionParticle.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/Materials/MoodiumParticleCircle.mat",
+    "bytes": 2581,
+    "references": [
+      "Assets/Moodium/Materials/MoodiumParticleCircle.mat",
+      "Assets/Moodium/Textures/MoodiumParticleCircle.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/Textures/MoodiumParticleCircle.png",
+    "bytes": 8726,
+    "references": [
+      "Assets/Moodium/Textures/MoodiumParticleCircle.png"
+    ]
+  },
+  {
+    "path": "Assets/Model/tracking/TissueReferenceObjectLibrary.asset",
+    "bytes": 697,
+    "references": [
+      "Assets/Model/tracking/TissueReferenceObjectLibrary.asset",
+      "Assets/Model/tracking/tissue.referenceobject"
+    ]
+  },
+  {
+    "path": "Assets/Model/tracking/tissue.referenceobject",
+    "bytes": 9899124,
+    "references": [
+      "Assets/Model/tracking/tissue.referenceobject"
+    ]
+  },
+  {
+    "path": "Assets/UI/Image/Augmented Reality-UI.png",
+    "bytes": 3728301,
+    "references": [
+      "Assets/UI/Image/Augmented Reality-UI.png"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/image/CandyWorld.png",
+    "bytes": 28607749,
+    "references": [
+      "Assets/Moodium/image/CandyWorld.png"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Scripts/MeshSwiftUIDriver.cs",
+    "bytes": 21231,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Scripts/MeshSwiftUIDriver.cs"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/HitDustExplosion.prefab",
+    "bytes": 345386,
+    "references": [
+      "Assets/Epic Toon FX/Prefabs/Combat/Explosions (Misc)/HitDustExplosion.prefab",
+      "Assets/Epic Toon FX/Materials/Basics/cloud_2x2_soft_AB.mat",
+      "Assets/Epic Toon FX/Materials/Basics/glow2_ADD.mat",
+      "Assets/Epic Toon FX/Materials/Basics/circlestretchy_AB.mat"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Materials/Basics/circlestretchy_AB.mat",
+    "bytes": 2082,
+    "references": [
+      "Assets/Epic Toon FX/Textures/circlestretchy.png",
+      "Assets/Epic Toon FX/Materials/Basics/circlestretchy_AB.mat"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Textures/circlestretchy.png",
+    "bytes": 15384,
+    "references": [
+      "Assets/Epic Toon FX/Textures/circlestretchy.png"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Materials/Basics/glow2_ADD.mat",
+    "bytes": 2073,
+    "references": [
+      "Assets/Epic Toon FX/Textures/glow2.png",
+      "Assets/Epic Toon FX/Materials/Basics/glow2_ADD.mat"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Textures/glow2.png",
+    "bytes": 94893,
+    "references": [
+      "Assets/Epic Toon FX/Textures/glow2.png"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Materials/Basics/cloud_2x2_soft_AB.mat",
+    "bytes": 2080,
+    "references": [
+      "Assets/Epic Toon FX/Materials/Basics/cloud_2x2_soft_AB.mat",
+      "Assets/Epic Toon FX/Textures/cloud_2x2_soft.png"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Textures/cloud_2x2_soft.png",
+    "bytes": 179742,
+    "references": [
+      "Assets/Epic Toon FX/Textures/cloud_2x2_soft.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Effects/CandyFrost.prefab",
+    "bytes": 236396,
+    "references": [
+      "Assets/Scripts/Moodium/CandyFrostParticleController.cs",
+      "Assets/Moodium/Materials/MoodiumParticleCircle.mat",
+      "Assets/prefab/Effects/CandyFrost.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/CandyFrostParticleController.cs",
+    "bytes": 6852,
+    "references": [
+      "Assets/Scripts/Moodium/CandyFrostParticleController.cs"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Prefabs/HandCollider.prefab",
+    "bytes": 4124,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Scripts/CollisionPushback.cs",
+      "Assets/Samples/PolySpatial/Meshing/Prefabs/HandCollider.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Meshing/Scripts/CollisionPushback.cs",
+    "bytes": 368,
+    "references": [
+      "Assets/Samples/PolySpatial/Meshing/Scripts/CollisionPushback.cs"
+    ]
+  },
+  {
+    "path": "Assets/Materials/Moodium_ObjectPicker_Glass.mat",
+    "bytes": 3821,
+    "references": [
+      "Assets/Materials/Moodium_ObjectPicker_Glass.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Bean.prefab",
+    "bytes": 4347,
+    "references": [
+      "Assets/prefab/Bean.prefab",
+      "Assets/Model/bean.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/bean.fbx",
+    "bytes": 7687900,
+    "references": [
+      "Assets/Model/bean.fbx",
+      "Assets/Materials/bean/bean.mat"
+    ]
+  },
+  {
+    "path": "Assets/Materials/bean/bean.mat",
+    "bytes": 3860,
+    "references": [
+      "Assets/Materials/bean/beanl_basecolor.JPEG",
+      "Assets/Materials/bean/bean.mat",
+      "Assets/Materials/bean/bean_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/bean/beanl_basecolor.JPEG",
+    "bytes": 2333215,
+    "references": [
+      "Assets/Materials/bean/beanl_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/bean/bean_normal.PNG",
+    "bytes": 4061171,
+    "references": [
+      "Assets/Materials/bean/bean_normal.PNG"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Shared/Scripts/SwiftFPSCounter.cs",
+    "bytes": 1100,
+    "references": [
+      "Assets/Samples/PolySpatial/Shared/Scripts/SwiftFPSCounter.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/MoodiumPortalEntranceController.cs",
+    "bytes": 23998,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/MoodiumPortalEntranceController.cs"
+    ]
+  },
+  {
+    "path": "Assets/Skybox_moodium.mat",
+    "bytes": 4807,
+    "references": [
+      "Assets/Skybox_moodium.mat",
+      "Assets/Materials/skyboxcute.png"
+    ]
+  },
+  {
+    "path": "Assets/Materials/skyboxcute.png",
+    "bytes": 1234420,
+    "references": [
+      "Assets/Materials/skyboxcute.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumOpening/MoodiumOpening.prefab",
+    "bytes": 30295,
+    "references": [
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi-2-35-Thin SDF.asset",
+      "Assets/prefab/MoodiumOpening/MoodiumOpening.prefab",
+      "Assets/Video/VideoPLUS.mp4",
+      "Assets/Resources/MoodiumOpening/Candy_Transform.anim",
+      "Assets/prefab/MoodiumOpening/MoodiumLogoText.prefab",
+      "Assets/UI/Moodium/WristHUD_Rounded.png",
+      "Assets/Model/Moodium_Opening/FBX/Sprite_Animation.fbx",
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/Resources/MoodiumOpening/OpeningVideoSequenceConfig.asset",
+      "Assets/prefab/MoodiumOpening/Candy_Opening.controller",
+      "Assets/Scripts/Moodium/Opening/OpeningManager.cs",
+      "Assets/prefab/UI-LeftHand.prefab",
+      "Assets/prefab/UI-RightHand.prefab",
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+      "Assets/Scripts/Moodium/Opening/OpeningLogoTextView.cs",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/Scripts/Moodium/Opening/CandyInteraction.cs",
+      "Assets/Scripts/Moodium/Opening/OpeningPromptView.cs",
+      "Assets/Scripts/Moodium/Opening/OpeningAnimationController.cs",
+      "Assets/Model/Moodium_Opening/FBX/Candy_Animation.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Resources/MoodiumOpening/Candy_Transform.anim",
+    "bytes": 161299,
+    "references": [
+      "Assets/Resources/MoodiumOpening/Candy_Transform.anim"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/CandyInteraction.cs",
+    "bytes": 1972,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/CandyInteraction.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumOpening/MoodiumLogoText.prefab",
+    "bytes": 11605,
+    "references": [
+      "Assets/prefab/MoodiumOpening/MoodiumLogoText.prefab",
+      "Assets/prefab/MoodiumOpening/MoodiumLogoText_Glow.mat",
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/Scripts/Moodium/Opening/OpeningLogoTextView.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumOpening/MoodiumLogoText_Glow.mat",
+    "bytes": 1875,
+    "references": [
+      "Assets/prefab/MoodiumOpening/MoodiumLogoText_Glow.mat",
+      "Assets/UI/Moodium/Fonts/Inter-Regular SDF.asset",
+      "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/OpeningLogoTextView.cs",
+    "bytes": 7262,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/OpeningLogoTextView.cs"
+    ]
+  },
+  {
+    "path": "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi-2-35-Thin SDF.asset",
+    "bytes": 6248,
+    "references": [
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi-2-35-Thin SDF.asset",
+      "Assets/TextMesh Pro/Fonts/AlibabaPuHuiTi-2-35-Thin.ttf"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/FBX/Candy_Animation.fbx",
+    "bytes": 4009964,
+    "references": [
+      "Assets/Model/Moodium_Opening/Materials/Candy_DreamGlass.mat",
+      "Assets/Model/Moodium_Opening/FBX/Candy_Animation.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/Materials/Candy_DreamGlass.mat",
+    "bytes": 4043,
+    "references": [
+      "Assets/Model/Moodium_Opening/Textures/Candy/BaseColor.png",
+      "Assets/Model/Moodium_Opening/Materials/Candy_DreamGlass.mat",
+      "Assets/Model/Moodium_Opening/Textures/Candy/Normal.png",
+      "Assets/Model/Moodium_Opening/Textures/Candy/Emission.png"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/Textures/Candy/BaseColor.png",
+    "bytes": 78230,
+    "references": [
+      "Assets/Model/Moodium_Opening/Textures/Candy/BaseColor.png"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/Textures/Candy/Normal.png",
+    "bytes": 78230,
+    "references": [
+      "Assets/Model/Moodium_Opening/Textures/Candy/Normal.png"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/Textures/Candy/Emission.png",
+    "bytes": 78230,
+    "references": [
+      "Assets/Model/Moodium_Opening/Textures/Candy/Emission.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI-RightHand.prefab",
+    "bytes": 3648,
+    "references": [
+      "Assets/prefab/UI-RightHand.prefab",
+      "Assets/Model/UI-RightHand.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/UI-RightHand.fbx",
+    "bytes": 9883068,
+    "references": [
+      "Assets/Model/UI-RightHand.fbx",
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/Transparent White hand.mat"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/OpeningPromptView.cs",
+    "bytes": 1049,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/OpeningPromptView.cs"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/OpeningManager.cs",
+    "bytes": 54562,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/OpeningManager.cs"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/FBX/Sprite_Animation.fbx",
+    "bytes": 2448572,
+    "references": [
+      "Assets/Model/Moodium_Opening/FBX/Sprite_Animation.fbx",
+      "Assets/Model/Moodium_Opening/Materials/Sprite_Emission.mat"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/Materials/Sprite_Emission.mat",
+    "bytes": 3865,
+    "references": [
+      "Assets/Model/Moodium_Opening/Textures/Sprite/Emission.png",
+      "Assets/Model/Moodium_Opening/Textures/Sprite/BaseColor.png",
+      "Assets/Model/Moodium_Opening/Materials/Sprite_Emission.mat"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/Textures/Sprite/BaseColor.png",
+    "bytes": 4383575,
+    "references": [
+      "Assets/Model/Moodium_Opening/Textures/Sprite/BaseColor.png"
+    ]
+  },
+  {
+    "path": "Assets/Model/Moodium_Opening/Textures/Sprite/Emission.png",
+    "bytes": 78230,
+    "references": [
+      "Assets/Model/Moodium_Opening/Textures/Sprite/Emission.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI-LeftHand.prefab",
+    "bytes": 3646,
+    "references": [
+      "Assets/prefab/UI-LeftHand.prefab",
+      "Assets/Model/UI-LeftHand.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/UI-LeftHand.fbx",
+    "bytes": 9535180,
+    "references": [
+      "Assets/Model/UI-LeftHand.fbx",
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/Transparent White hand.mat"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/OpeningAnimationController.cs",
+    "bytes": 6025,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/OpeningAnimationController.cs"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumOpening/Candy_Opening.controller",
+    "bytes": 2779,
+    "references": [
+      "Assets/Resources/MoodiumOpening/Candy_Transform.anim",
+      "Assets/prefab/MoodiumOpening/Candy_Opening.controller"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Sound/etfx_explosion_slime2.wav",
+    "bytes": 154242,
+    "references": [
+      "Assets/Epic Toon FX/Sound/etfx_explosion_slime2.wav"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumOpening/MoodiumPortalEntrance.prefab",
+    "bytes": 189354,
+    "references": [
+      "Assets/prefab/WoodBag.prefab",
+      "Assets/Music/PortalOpen.wav",
+      "Assets/Samples/PolySpatial/Portal/Meshes/CutSphere.fbx",
+      "Assets/Materials/MoodiumPortal/MoodiumPortalOcclusion.mat",
+      "Assets/UI/Moodium/WristHUD_Rounded.png",
+      "Assets/Music/BagFalling.wav",
+      "Assets/Music/Collision.wav",
+      "Assets/prefab/Cloud.prefab",
+      "Assets/UI/Moodium/Fonts/AlibabaPuHuiTi Moodium SDF.asset",
+      "Assets/Animations/MoodiumPortal/MoodiumPortal.controller",
+      "Assets/Moodium/Textures/MoodiumParticleCircle.png",
+      "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset",
+      "Assets/prefab/MoodiumOpening/MoodiumPortalEntrance.prefab",
+      "Assets/FImpossible Creations/Plugins - Animating/Bones Stimulator/BonesStimulator.cs",
+      "Assets/Samples/PolySpatial/Portal/Materials/Skybox.mat",
+      "Assets/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowLight.prefab",
+      "Assets/prefab/Moodi.prefab",
+      "Assets/Materials/MoodiumPortal/MoodiPortalSkin_Emission.mat",
+      "Assets/prefab/MoodiumElasticBall.prefab",
+      "Assets/Animations/MoodiumPortal/MoodiPortal.controller",
+      "Assets/prefab/MoodiumSoftGelBall.prefab",
+      "Assets/Scripts/Moodium/Opening/MoodiumPortalEntranceController.cs",
+      "Assets/Scripts/Moodium/Opening/PortalFallingBagController.cs",
+      "Assets/prefab/MoodiumCloud.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumSoftGelBall.prefab",
+    "bytes": 3108,
+    "references": [
+      "Assets/prefab/MoodiumSoftGelBall_Mat.mat",
+      "Assets/prefab/MoodiumSoftGelBall.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumSoftGelBall_Mat.mat",
+    "bytes": 3857,
+    "references": [
+      "Assets/prefab/MoodiumSoftGelBall_Mat.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Portal/Meshes/CutSphere.fbx",
+    "bytes": 30492,
+    "references": [
+      "Assets/Samples/PolySpatial/Portal/Meshes/CutSphere.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowLight.prefab",
+    "bytes": 113159,
+    "references": [
+      "Assets/Epic Toon FX/Materials/Basics/circle_AB.mat",
+      "Assets/Epic Toon FX/Prefabs/Environment/Weather/Snow/SnowLight.prefab"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Materials/Basics/circle_AB.mat",
+    "bytes": 2107,
+    "references": [
+      "Assets/Epic Toon FX/Materials/Basics/circle_AB.mat",
+      "Assets/Epic Toon FX/Textures/circle.png"
+    ]
+  },
+  {
+    "path": "Assets/Epic Toon FX/Textures/circle.png",
+    "bytes": 6439,
+    "references": [
+      "Assets/Epic Toon FX/Textures/circle.png"
+    ]
+  },
+  {
+    "path": "Assets/Music/BagFalling.wav",
+    "bytes": 129193,
+    "references": [
+      "Assets/Music/BagFalling.wav"
+    ]
+  },
+  {
+    "path": "Assets/Animations/MoodiumPortal/MoodiumPortal.controller",
+    "bytes": 2030,
+    "references": [
+      "Assets/Animations/MoodiumPortal/MoodiumPortalOpen.anim",
+      "Assets/Animations/MoodiumPortal/MoodiumPortal.controller"
+    ]
+  },
+  {
+    "path": "Assets/Animations/MoodiumPortal/MoodiumPortalOpen.anim",
+    "bytes": 7824,
+    "references": [
+      "Assets/Animations/MoodiumPortal/MoodiumPortalOpen.anim"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Cloud.prefab",
+    "bytes": 3858,
+    "references": [
+      "Assets/prefab/Cloud.prefab",
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/White cloud.mat",
+      "Assets/Model/cloud.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/White cloud.mat",
+    "bytes": 3823,
+    "references": [
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/White cloud.mat"
+    ]
+  },
+  {
+    "path": "Assets/Model/cloud.fbx",
+    "bytes": 821276,
+    "references": [
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/White.mat",
+      "Assets/Model/cloud.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/White.mat",
+    "bytes": 3779,
+    "references": [
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/White.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/Moodi.prefab",
+    "bytes": 3610,
+    "references": [
+      "Assets/Model/IP_Unity_3Clips.fbx",
+      "Assets/prefab/Moodi.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumElasticBall.prefab",
+    "bytes": 3104,
+    "references": [
+      "Assets/prefab/MoodiumElasticBall_Mat.mat",
+      "Assets/prefab/MoodiumElasticBall.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumElasticBall_Mat.mat",
+    "bytes": 3773,
+    "references": [
+      "Assets/prefab/MoodiumElasticBall_Mat.mat"
+    ]
+  },
+  {
+    "path": "Assets/FImpossible Creations/Plugins - Animating/Bones Stimulator/BonesStimulator.cs",
+    "bytes": 3165,
+    "references": [
+      "Assets/FImpossible Creations/Plugins - Animating/Bones Stimulator/BonesStimulator.cs",
+      "Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Bones Stimulator/Resources/Bones Stimulator/BonesStimulatorBig.png"
+    ]
+  },
+  {
+    "path": "Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Bones Stimulator/Resources/Bones Stimulator/BonesStimulatorBig.png",
+    "bytes": 6208,
+    "references": [
+      "Assets/FImpossible Creations/Editor/Plugins - Editor - Animating/Bones Stimulator/Resources/Bones Stimulator/BonesStimulatorBig.png"
+    ]
+  },
+  {
+    "path": "Assets/Scripts/Moodium/Opening/PortalFallingBagController.cs",
+    "bytes": 9343,
+    "references": [
+      "Assets/Scripts/Moodium/Opening/PortalFallingBagController.cs"
+    ]
+  },
+  {
+    "path": "Assets/Materials/MoodiumPortal/MoodiPortalSkin_Emission.mat",
+    "bytes": 3787,
+    "references": [
+      "Assets/Materials/MoodiumPortal/MoodiPortalSkin_Emission.mat"
+    ]
+  },
+  {
+    "path": "Assets/Music/Collision.wav",
+    "bytes": 8821,
+    "references": [
+      "Assets/Music/Collision.wav"
+    ]
+  },
+  {
+    "path": "Assets/Animations/MoodiumPortal/MoodiPortal.controller",
+    "bytes": 4187,
+    "references": [
+      "Assets/Model/IP_Unity_3Clips.fbx",
+      "Assets/Animations/MoodiumPortal/Moodi_Idle_Blink_Loop.anim",
+      "Assets/Animations/MoodiumPortal/MoodiPortal.controller"
+    ]
+  },
+  {
+    "path": "Assets/Animations/MoodiumPortal/Moodi_Idle_Blink_Loop.anim",
+    "bytes": 183043,
+    "references": [
+      "Assets/Animations/MoodiumPortal/Moodi_Idle_Blink_Loop.anim"
+    ]
+  },
+  {
+    "path": "Assets/Materials/MoodiumPortal/MoodiumPortalOcclusion.mat",
+    "bytes": 3681,
+    "references": [
+      "Assets/Materials/MoodiumPortal/MoodiumPortalOcclusion.mat"
+    ]
+  },
+  {
+    "path": "Assets/Music/PortalOpen.wav",
+    "bytes": 81128,
+    "references": [
+      "Assets/Music/PortalOpen.wav"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Portal/Materials/Skybox.mat",
+    "bytes": 4799,
+    "references": [
+      "Assets/Samples/PolySpatial/Portal/Materials/Skybox_clouds.png",
+      "Assets/Samples/PolySpatial/Portal/Materials/Skybox.mat"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/Portal/Materials/Skybox_clouds.png",
+    "bytes": 1454584,
+    "references": [
+      "Assets/Samples/PolySpatial/Portal/Materials/Skybox_clouds.png"
+    ]
+  },
+  {
+    "path": "Assets/prefab/MoodiumCloud.prefab",
+    "bytes": 231196,
+    "references": [
+      "Assets/Epic Toon FX/Materials/Basics/circle_AB.mat",
+      "Assets/Epic Toon FX/Materials/Basics/cloud_2x2_soft_AB.mat",
+      "Assets/prefab/MoodiumCloud.prefab"
+    ]
+  },
+  {
+    "path": "Assets/prefab/WoodBag.prefab",
+    "bytes": 7828,
+    "references": [
+      "Assets/prefab/WoodBag.prefab",
+      "Assets/Model/transparentbag_lofi.fbx",
+      "Assets/Model/wood_lofi.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/wood_lofi.fbx",
+    "bytes": 1313548,
+    "references": [
+      "Assets/Materials/wood/wood.mat",
+      "Assets/Model/wood_lofi.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/wood/wood.mat",
+    "bytes": 3900,
+    "references": [
+      "Assets/Materials/wood/wood.mat",
+      "Assets/Materials/wood/woolofi_Normal_Bake.jpg",
+      "Assets/Materials/wood/woolofi_BaseColor.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Materials/wood/woolofi_BaseColor.jpg",
+    "bytes": 260878,
+    "references": [
+      "Assets/Materials/wood/woolofi_BaseColor.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Materials/wood/woolofi_Normal_Bake.jpg",
+    "bytes": 204837,
+    "references": [
+      "Assets/Materials/wood/woolofi_Normal_Bake.jpg"
+    ]
+  },
+  {
+    "path": "Assets/Model/transparentbag_lofi.fbx",
+    "bytes": 770396,
+    "references": [
+      "Assets/Samples/PolySpatial/MixedReality/Materials/Transparent White.mat",
+      "Assets/Model/transparentbag_lofi.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Samples/PolySpatial/MixedReality/Materials/Transparent White.mat",
+    "bytes": 3882,
+    "references": [
+      "Assets/Samples/PolySpatial/MixedReality/Materials/Transparent White.mat"
+    ]
+  },
+  {
+    "path": "Assets/prefab/UI-PushRightHand.prefab",
+    "bytes": 4389,
+    "references": [
+      "Assets/prefab/UI-PushRightHand.prefab",
+      "Assets/Model/push-righthand.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/push-righthand.fbx",
+    "bytes": 4886028,
+    "references": [
+      "Assets/Model/push-righthand.fbx",
+      "Assets/Samples/Apple visionOS XR Plugin/2.4.3/Metal Sample - URP/Materials/Transparent White hand.mat"
+    ]
+  },
+  {
+    "path": "Assets/Moodium/image/NatureWorld.png",
+    "bytes": 31161681,
+    "references": [
+      "Assets/Moodium/image/NatureWorld.png"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/IvyStudio/Materials/URP/IvyBranchMaterial URP GROW.mat",
+    "bytes": 5053,
+    "references": [
+      "Assets/ARTnGAME/IvyStudio/Materials/URP/IvyBranchMaterial URP GROW.mat",
+      "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Shaders/InfiniGRASS URP/InfiniGRASS_Transp_Wind_FENCE 1-ROOF URP1 GROW.shader"
+    ]
+  },
+  {
+    "path": "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Shaders/InfiniGRASS URP/InfiniGRASS_Transp_Wind_FENCE 1-ROOF URP1 GROW.shader",
+    "bytes": 110137,
+    "references": [
+      "Assets/ARTnGAME/InfiniGRASS/Grass Assets/Shaders/InfiniGRASS URP/InfiniGRASS_Transp_Wind_FENCE 1-ROOF URP1 GROW.shader"
+    ]
+  },
+  {
+    "path": "Assets/prefab/CandyWorldUI.prefab",
+    "bytes": 9750,
+    "references": [
+      "Assets/Model/IP_Unity_3Clips.fbx",
+      "Assets/prefab/Moodi meshy.prefab",
+      "Assets/prefab/CandyWorldUI.prefab",
+      "Assets/Materials/CandyWorldUI/CandyWorldUI.mat",
+      "Assets/Model/candyworld_lofi.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Model/candyworld_lofi.fbx",
+    "bytes": 20612188,
+    "references": [
+      "Assets/Model/candyworld_lofi.fbx"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldUI/CandyWorldUI.mat",
+    "bytes": 3947,
+    "references": [
+      "Assets/Materials/CandyWorldUI/CandyWorldUI.mat",
+      "Assets/Materials/CandyWorldUI/CandyWorldUI_normal.JPEG",
+      "Assets/Materials/CandyWorldUI/candyworld_lofi_basecolor.JPEG",
+      "Assets/Materials/CandyWorldUI/candyworld_lofi_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldUI/candyworld_lofi_metallic.JPEG",
+    "bytes": 690745,
+    "references": [
+      "Assets/Materials/CandyWorldUI/candyworld_lofi_metallic.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldUI/candyworld_lofi_basecolor.JPEG",
+    "bytes": 1150659,
+    "references": [
+      "Assets/Materials/CandyWorldUI/candyworld_lofi_basecolor.JPEG"
+    ]
+  },
+  {
+    "path": "Assets/Materials/CandyWorldUI/CandyWorldUI_normal.JPEG",
+    "bytes": 570436,
+    "references": [
+      "Assets/Materials/CandyWorldUI/CandyWorldUI_normal.JPEG"
+    ]
+  }
+]
