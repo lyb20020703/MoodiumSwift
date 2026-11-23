@@ -6,3 +6,6 @@ xcuserdata/
 __pycache__/
 *.pyc
 BuildAssets/
+
+# Local Unity device-recording reference frames (contain real surroundings)
+docs/parity/baseline/
