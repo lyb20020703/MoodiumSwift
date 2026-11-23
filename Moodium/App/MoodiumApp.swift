@@ -5,9 +5,10 @@ import RealityKit
 struct MoodiumApp: App {
     @State private var session = SpatialSession()
     var body: some SwiftUI.Scene {
-        WindowGroup {
-            DevelopmentEntry().environment(session)
+        WindowGroup(id:"launch") {
+            LaunchEntry().environment(session)
         }
+        .defaultSize(width:420,height:220)
         ImmersiveSpace(id: "MoodiumWorld") {
             MoodiumSpace()
             .onAppear { session.phase = .open }
@@ -24,15 +25,15 @@ final class SpatialSession {
     var message = ""
 }
 
-// Developer-only entry until the Unity opening is ported. Not final product UI.
-struct DevelopmentEntry: View {
+struct LaunchEntry: View {
     @Environment(SpatialSession.self) private var session
     @Environment(\.openImmersiveSpace) private var openSpace
+    @Environment(\.dismissWindow) private var dismissWindow
     @Environment(\.dismissImmersiveSpace) private var dismissSpace
     var body: some View {
         VStack(spacing: 20) {
-            Text("Moodium · Native Development").font(.title)
-            Text("Unity scene migration in progress").foregroundStyle(.secondary)
+            Text("Moodium").font(.title)
+            Text("A little space to feel better.").foregroundStyle(.secondary)
             Button(session.phase == .open ? "Close space" : "Open space") {
                 Task { @MainActor in
                     if session.phase == .open {
@@ -42,7 +43,7 @@ struct DevelopmentEntry: View {
                     } else {
                         session.phase = .opening
                         switch await openSpace(id: "MoodiumWorld") {
-                        case .opened: session.phase = .open; session.message = ""
+                        case .opened: session.phase = .open; session.message = ""; dismissWindow(id:"launch")
                         case .userCancelled: session.phase = .closed
                         case .error: session.phase = .closed; session.message = "Unable to open space. Please try again."
                         @unknown default: session.phase = .closed
@@ -52,5 +53,15 @@ struct DevelopmentEntry: View {
             }.disabled(session.phase == .opening || session.phase == .closing)
             if !session.message.isEmpty { Text(session.message) }
         }.padding(40)
+        .task {
+            guard session.phase == .closed else { return }
+            session.phase = .opening
+            switch await openSpace(id:"MoodiumWorld") {
+            case .opened: session.phase = .open; dismissWindow(id:"launch")
+            case .userCancelled: session.phase = .closed
+            case .error: session.phase = .closed; session.message = "Unable to open space. Please try again."
+            @unknown default: session.phase = .closed
+            }
+        }
     }
 }

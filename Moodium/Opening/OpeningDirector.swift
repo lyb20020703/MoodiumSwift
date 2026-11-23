@@ -21,11 +21,18 @@ final class OpeningDirector {
     @ObservationIgnored private var answer: OpeningTimeline.Segment?
     private var timeline: OpeningTimeline.Language { english ? OpeningTimeline.english : OpeningTimeline.chinese }
 
+    private var defaults: UserDefaults { .standard }
+    private func shouldAsk(_ key: String, answer: String) -> Bool {
+        (defaults.object(forKey:key) as? Bool ?? true) || !defaults.bool(forKey:"Moodium.Opening.Completed") || defaults.object(forKey:answer) == nil
+    }
     func start() {
         stop()
         guard let url = Bundle.main.url(forResource: "VideoPLUS", withExtension: "mp4", subdirectory: "Content/Video") else {
             failure = "Opening video is missing."; return
         }
+        english = defaults.string(forKey:"Moodium.Language") == "English"
+        hasBag = defaults.bool(forKey:"Moodium.HasSensoryBag")
+        currentFrame = 0; elapsed = 0
         phase = .preview; startedAt = Date(); failure = nil; choosing = false; answer = nil
         player.replaceCurrentItem(with: AVPlayerItem(url: url))
         observer = player.addPeriodicTimeObserver(forInterval: CMTime(value: 1, timescale: 30), queue: .main) { [weak self] time in
@@ -46,14 +53,18 @@ final class OpeningDirector {
             if elapsed >= 30 { activate() }
             else if seconds >= 3.08 { seek(0) }
         case .intro:
-            if frame >= OpeningTimeline.language.start { phase = .language; promptAt = Date() }
+            if frame >= OpeningTimeline.language.start {
+                phase = .language; promptAt = Date()
+                if !shouldAsk("Moodium.Opening.AskLanguage",answer:"Moodium.Language") { chooseLanguage(english:english) }
+            }
         case .language:
             if Date().timeIntervalSince(promptAt) >= 30 { chooseLanguage(english: false); return }
             if frame >= OpeningTimeline.language.end { seek(OpeningTimeline.language.start) }
         case .question:
+            if frame >= timeline.question.start && !shouldAsk("Moodium.Opening.AskBag",answer:"Moodium.HasSensoryBag") { chooseBag(hasBag); return }
             if frame >= timeline.question.end { seek(timeline.question.start) }
         case .answer:
-            if let answer, frame >= answer.end { phase = .finished; player.pause() }
+            if let answer, frame >= answer.end { phase = .finished; defaults.set(true,forKey:"Moodium.Opening.Completed"); player.pause() }
         case .finished: break
         }
     }

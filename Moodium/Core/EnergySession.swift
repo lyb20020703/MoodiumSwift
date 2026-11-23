@@ -8,10 +8,12 @@ struct EnergySession {
     private var rhythm = RhythmScorer(SqueezeParameters())
     private var breath = BreathScorer(parameters:SqueezeParameters())
     private var began = Double.nan
+    mutating func begin(at time: Double) { if time.isFinite { began = time } }
     mutating func setMode(_ value: SqueezeMode, parameters: SqueezeParameters = .init()) {
         mode = value; rhythm = RhythmScorer(parameters); breath = BreathScorer(parameters:parameters)
     }
     mutating func handle(_ event: SqueezeTracker.Event) -> [Int] {
+        guard energy < 100 else { return [] }
         let amount: Double, time: Double
         switch event {
         case .started(let sample):

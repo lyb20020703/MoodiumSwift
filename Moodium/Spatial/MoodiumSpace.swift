@@ -5,6 +5,14 @@ struct MoodiumSpace: View {
     @State private var opening = OpeningDirector()
     @State private var scene = NativeScene()
     @State private var tracking = SpatialTracking()
+    @State private var journal = MoodJournal()
+    @State private var showMood = false
+    @State private var postMood = false
+    @State private var visitDuration = 0.0
+    @State private var visitPresses = 0
+    @State private var visitWorld: String?
+    @State private var showSettings = false
+    @AppStorage("Moodium.ProgressPace") private var pace = 0
     var body: some View {
         RealityView { content, attachments in
             content.add(scene.root)
@@ -20,27 +28,63 @@ struct MoodiumSpace: View {
                 scene.carouselControls = carousel
                 scene.root.addChild(carousel)
             }
-            if let worldControls = attachments.entity(for:"worldControls") {
-                worldControls.position = [0,1.05,-0.55]
-                scene.root.addChild(worldControls)
+            if let modes = attachments.entity(for:"modes") {
+                scene.hud.modes = modes; scene.root.addChild(modes)
+                let width = modes.visualBounds(relativeTo:modes).extents.x
+                if width > 0 { modes.scale = SIMD3(repeating:0.25/width) }
+                modes.isEnabled = false
             }
+            if let mood = attachments.entity(for:"moodPlate") { mood.position = [0,1.25,-0.85]; scene.root.addChild(mood) }
+            if let ring = attachments.entity(for:"energyRing") {
+                scene.hud.ring = ring; scene.root.addChild(ring)
+                let width = ring.visualBounds(relativeTo:ring).extents.x
+                if width > 0 { ring.scale = SIMD3(repeating:Float(200*0.42/520)/width) }
+                ring.isEnabled = false
+            }
+            if let dock = attachments.entity(for:"worldDock") {
+                scene.hud.dock = dock; scene.root.addChild(dock)
+                let width = dock.visualBounds(relativeTo:dock).extents.x
+                if width > 0 { dock.scale = SIMD3(repeating:0.10/width) }
+                dock.isEnabled = false
+            }
+            if let controls = attachments.entity(for:"calibration") {
+                scene.calibrator.controls = controls; scene.root.addChild(controls)
+                let width = controls.visualBounds(relativeTo:controls).extents.x
+                if width > 0 { controls.scale = SIMD3(repeating:0.22/width) }
+                controls.isEnabled = false
+            }
+            if let errors = attachments.entity(for:"errors") { errors.position = [0,1.3,-0.7]; scene.root.addChild(errors) }
             opening.start()
         } update: { _, _ in
             scene.video?.isEnabled = opening.phase != .finished
             scene.carouselControls?.isEnabled = opening.phase == .finished && !scene.inWorld
         } attachments: {
-            Attachment(id:"worldControls") {
-                if scene.inWorld {
+            Attachment(id:"errors") {
+                if let failure = scene.failure ?? tracking.failure {
                     VStack {
-                        HStack {
-                            ForEach(SqueezeMode.allCases,id:\.self) { mode in
-                                Button(mode.rawValue.capitalized) { scene.rescue.setMode(mode) }
-                            }
-                            Button("Return") { scene.leaveWorld() }
-                        }
-                        if let failure = scene.failure { Text(failure).font(.caption) }
-                    }
+                        Text(failure)
+                        if scene.inWorld { Button(opening.english ? "Return" : "返回",action:leaveWorld) }
+                    }.padding().glassBackgroundEffect()
                 }
+            }
+            Attachment(id:"calibration") {
+                CalibrationControls(calibrator:scene.calibrator,english:opening.english,nature:scene.selection == 1,confirm:{ Task { await scene.confirmCalibration(english:opening.english) } },cancel:scene.cancelCalibration)
+            }
+            Attachment(id:"energyRing") { EnergyRingView(hud:scene.hud,nature:scene.enteredWorld == "nature") }
+            Attachment(id:"worldDock") { WorldDockView(hud:scene.hud,english:opening.english,exit:leaveWorld) }
+            Attachment(id:"moodPlate") {
+                if showMood {
+                    MoodPlate(english:opening.english,post:postMood) { point in
+                        let mood = journal.save(point,phase:postMood ? "post" : "pre",world:visitWorld,duration:visitDuration,presses:visitPresses)
+                        guard journal.failure == nil else { return }
+                        if !postMood { scene.selectedMood = mood; scene.select(mood.world == "nature" ? 1 : 0) }
+                        showMood = false
+                    } cancel: { showMood = false }
+                    if let error = journal.failure { Text(error).foregroundStyle(.red) }
+                }
+            }
+            Attachment(id:"modes") {
+                ModeButtonRow(rescue:scene.rescue,hud:scene.hud,recommended:scene.selectedMood?.mode ?? .free,nature:scene.enteredWorld == "nature",english:opening.english)
             }
             Attachment(id: "openingControls") {
                 if opening.phase != .finished {
@@ -48,25 +92,52 @@ struct MoodiumSpace: View {
                 }
             }
             Attachment(id: "carouselControls") {
-                if opening.phase == .finished && !opening.hasBag && !scene.inWorld {
+                if opening.phase == .finished && !scene.inWorld && !showMood {
+                    if scene.preparing {
+                        if !scene.calibrator.active { Text(opening.english ? "Looking for a table…" : "正在寻找桌面…") }
+                    } else if opening.hasBag {
+                        if scene.stickerSelection != nil {
+                            WorldEntrySlider(nature:scene.selection == 1,english:opening.english) { Task { await scene.enterSticker(english:opening.english) } }.id(scene.stickerSelection)
+                        } else { Text(opening.english ? "Look at the sticker on your sensory bag" : "请看向感官袋上的贴纸") }
+                    } else {
                     VStack {
                         HStack(spacing: 80) {
                             Button("‹") { scene.select(0) }
                             Text(scene.selection == 0 ? "Candy World" : "Nature World")
                             Button("›") { scene.select(1) }
                         }
+                        Button(opening.english ? "Not sure? Check your mood" : "不知道选哪个？测测心情") {
+                            postMood = false; visitWorld = nil; visitDuration = 0; visitPresses = 0; showMood = true
+                        }
+                        Button(opening.english ? "Settings" : "设置") { showSettings.toggle() }
+                        if showSettings {
+                            Toggle(opening.english ? "Ask language" : "询问语言",isOn:Binding(get:{UserDefaults.standard.object(forKey:"Moodium.Opening.AskLanguage") as? Bool ?? true},set:{UserDefaults.standard.set($0,forKey:"Moodium.Opening.AskLanguage")}))
+                            Toggle(opening.english ? "Ask about sensory bag" : "询问感官袋",isOn:Binding(get:{UserDefaults.standard.object(forKey:"Moodium.Opening.AskBag") as? Bool ?? true},set:{UserDefaults.standard.set($0,forKey:"Moodium.Opening.AskBag")}))
+                            Picker(opening.english ? "Pace" : "进度快慢",selection:$pace) { Text("×1").tag(0);Text("×2").tag(1);Text("×4").tag(2) }
+                        }
                         WorldEntrySlider(nature:scene.selection == 1,english:opening.english) {
-                            Task { await scene.enterWorld(nature:scene.selection == 1,english:opening.english) }
+                            Task { await scene.prepareTable(tracking:tracking) }
                         }.id(scene.selection)
                         if let error = scene.failure { Text(error).font(.caption) }
+                    }
                     }
                 }
             }
         }
+        .onChange(of:pace) { _, value in scene.rescue.setPace(value) }
         .task {
             tracking.onPlacement = { position, orientation in
                 scene.root.position = [position.x, 0, position.z]
                 scene.root.orientation = orientation
+            }
+            tracking.onDevice = { transform in
+                scene.hud.device(transform)
+                if scene.calibrator.active, let controls = scene.calibrator.controls {
+                    let eyes = SIMD3(transform.columns.3.x,transform.columns.3.y,transform.columns.3.z)
+                    controls.look(at:eyes,from:controls.position(relativeTo:nil),relativeTo:nil,forward:.positiveZ)
+                    let pose = tracking.tablePose()
+                    if pose.found { scene.calibrator.relocate(pose.transform) }
+                }
             }
             tracking.onHand = { hand in
                 let source = hand.isLeft ? 1 : 2
@@ -90,15 +161,23 @@ struct MoodiumSpace: View {
         }
         .gesture(DragGesture(minimumDistance:0).targetedToAnyEntity()
             .onChanged { value in
-                guard scene.inWorld else { return }
                 let position = value.convert(value.location3D,from:.local,to:.scene)
+                if scene.calibrator.move(entity:value.entity,worldPosition:position) { return }
+                guard scene.inWorld, scene.rescue.owns(value.entity) else { return }
                 scene.rescue.contact(source:100,position:position)
             }
-            .onEnded { _ in scene.rescue.release(source:100) })
+            .onEnded { _ in scene.calibrator.endDrag(); scene.rescue.release(source:100) })
         .simultaneousGesture(SpatialTapGesture().targetedToAnyEntity().onEnded { value in
             if value.entity.name == "Unity Opening Video" { opening.activate() }
         })
         .onDisappear { opening.stop(); tracking.stop(); scene.stop() }
+    }
+    private func leaveWorld() {
+        let shouldAsk = scene.journey.stage == .explore && scene.selectedMood != nil
+        visitDuration = scene.visitStarted.map { Date().timeIntervalSince($0) } ?? 0
+        visitPresses = scene.rescue.energy.presses; visitWorld = scene.enteredWorld
+        scene.leaveWorld()
+        if shouldAsk { postMood = true; showMood = true }
     }
 }
 
@@ -134,6 +213,16 @@ private struct OpeningChoices: View {
                let image = UIImage(contentsOfFile: url.path) {
                 Image(uiImage: image).resizable().frame(width: 330, height: 187)
             } else { Text(title) }
-        }.buttonStyle(.plain).accessibilityLabel(title)
+        }.buttonStyle(OpeningArtStyle(id:id)).accessibilityLabel(title)
+    }
+}
+
+private struct OpeningArtStyle: ButtonStyle {
+    let id: String
+    func makeBody(configuration: Configuration) -> some View {
+        let name = "opening_btn_\(id)_\(configuration.isPressed ? "pressed" : "idle")"
+        if let url = Bundle.main.url(forResource:name,withExtension:"png",subdirectory:"Content/Opening"),let image = UIImage(contentsOfFile:url.path) {
+            Image(uiImage:image).resizable().frame(width:330,height:187)
+        } else { configuration.label }
     }
 }

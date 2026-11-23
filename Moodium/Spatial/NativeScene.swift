@@ -9,9 +9,17 @@ final class NativeScene {
     private(set) var selection = 0
     private(set) var inWorld = false
     let rescue = RescueWorld()
+    let hud = WorldHUD()
+    let calibrator = BagCalibrator()
+    private(set) var preparing = false
+    private(set) var stickerSelection: UUID?
+    private var activeSticker: UUID?
     let moodi = MoodiActor()
     let speech = MoodiSpeech()
     private(set) var introDone = false
+    var selectedMood: MoodKind?
+    private(set) var enteredWorld: String?
+    private(set) var visitStarted: Date?
     private(set) var journey = WorldJourney()
     @ObservationIgnored private var speechTask: Task<Void,Never>?
     @ObservationIgnored private var storyTask: Task<Void,Never>?
@@ -21,6 +29,7 @@ final class NativeScene {
     @ObservationIgnored private var islands: [Entity] = []
     @ObservationIgnored private var loading = false
     @ObservationIgnored private var generation = 0
+    @ObservationIgnored private var visitGeneration = 0
     @ObservationIgnored private var stickers: [UUID: Entity] = [:]
     @ObservationIgnored private var stickerLoads: Set<UUID> = []
     @ObservationIgnored private var latestImages: [UUID: ImageAnchor] = [:]
@@ -61,13 +70,22 @@ final class NativeScene {
     }
     func updateSticker(_ anchor: ImageAnchor, tracked: Bool) async {
         if !tracked {
+            if activeSticker == anchor.id { rescue.root.isEnabled = false }
+            if stickerSelection == anchor.id { stickerSelection = nil }
             latestImages.removeValue(forKey: anchor.id)
             stickers[anchor.id]?.isEnabled = false
             return
         }
         latestImages[anchor.id] = anchor
+        if !inWorld { stickerSelection = anchor.id; selection = anchor.referenceImage.name == "NatureWorldPhoneTracking" ? 1 : 0 }
+        if activeSticker == anchor.id {
+            rescue.root.isEnabled = true
+            var placement = anchor.originFromAnchorTransform
+            placement.columns.3 -= placement.columns.1 * 0.08
+            rescue.root.setTransformMatrix(placement,relativeTo:nil)
+        }
         if let entry = stickers[anchor.id] {
-            entry.isEnabled = true; entry.setTransformMatrix(anchor.originFromAnchorTransform, relativeTo: nil)
+            entry.isEnabled = !inWorld; entry.setTransformMatrix(anchor.originFromAnchorTransform, relativeTo: nil)
             return
         }
         guard !stickerLoads.contains(anchor.id) else { return }
@@ -84,23 +102,35 @@ final class NativeScene {
             visual.position = UnitySpace.position([0, 0.12, 0.10])
             entry.addChild(visual); root.addChild(entry)
             entry.setTransformMatrix(current.originFromAnchorTransform, relativeTo: nil)
+            entry.isEnabled = !inWorld
             stickers[anchor.id] = entry
         } catch { failure = "Sticker world could not be loaded: \(error.localizedDescription)" }
     }
-    func enterWorld(nature: Bool, english: Bool = false) async {
+    func enterWorld(nature: Bool, english: Bool = false, placement: simd_float4x4? = nil, calibration: BagCalibration = .init()) async {
         guard !inWorld else { return }
+        visitGeneration += 1
+        let visit = visitGeneration
+        failure = nil; enteredWorld = nature ? "nature" : "candy"; visitStarted = Date()
         inWorld = true; introDone = false; journey.begin(); speech.english = english
         for island in islands { island.isEnabled = false }
         for entry in stickers.values { entry.isEnabled = false }
         carouselControls?.isEnabled = false
+        rescue.root.isEnabled = true
         rescue.root.position = [0, 0.75, -0.75]
         root.addChild(rescue.root)
-        await rescue.load(nature: nature)
-        guard inWorld, rescue.ready else { failure = rescue.failure; return }
-        if let scene = root.scene { rescue.attachUpdates(to:scene) }
+        if let placement { rescue.root.setTransformMatrix(placement,relativeTo:nil) }
+        await rescue.load(nature: nature,calibration:calibration)
+        guard visit == visitGeneration, inWorld else { return }
+        guard rescue.ready else { failure = rescue.failure; return }
+        if let scene = root.scene {
+            rescue.attachUpdates(to:scene)
+            hud.start(scene:scene,rescue:rescue)
+        }
+        rescue.setMode(selectedMood?.mode ?? .free,parameters:MoodRules.parameters(for:selectedMood))
+        rescue.setPace(UserDefaults.standard.integer(forKey:"Moodium.ProgressPace"))
         do {
             try await moodi.load()
-            guard inWorld else { return }
+            guard visit == visitGeneration, inWorld else { return }
             rescue.root.addChild(moodi.root)
             rescue.onStage = { [weak self] stage in
                 guard let self else { return }
@@ -118,7 +148,41 @@ final class NativeScene {
                 self.speechTask = Task { await self.speech.say("K4",from:self.moodi.root) }
             }
             storyTask = Task { await runIntro() }
-        } catch { failure = "Moodi animation could not be loaded: \(error.localizedDescription)" }
+        } catch { guard visit == visitGeneration else { return }; failure = "Moodi animation could not be loaded: \(error.localizedDescription)" }
+    }
+    func enterSticker(english: Bool) async {
+        guard let id = stickerSelection, let anchor = latestImages[id], !inWorld else { return }
+        activeSticker = id
+        var placement = anchor.originFromAnchorTransform
+        placement.columns.3 -= placement.columns.1 * 0.08
+        await enterWorld(nature:anchor.referenceImage.name == "NatureWorldPhoneTracking",english:english,placement:placement)
+    }
+    func prepareTable(tracking: SpatialTracking) async {
+        guard !inWorld && !preparing else { return }
+        preparing = true
+        for island in islands { island.isEnabled = false }
+        let token = generation
+        // Unity waits up to three seconds, then exposes an adjustable fallback.
+        let began = Date()
+        var pose = tracking.tablePose()
+        while !pose.found && Date().timeIntervalSince(began) < 3 {
+            do { try await Task.sleep(for:.milliseconds(100)) } catch { preparing = false; return }
+            guard preparing, generation == token else { return }
+            pose = tracking.tablePose()
+        }
+        guard preparing, generation == token else { return }
+        root.addChild(calibrator.root)
+        await calibrator.begin(transform:pose.transform,fallback:!pose.found)
+    }
+    func confirmCalibration(english: Bool) async {
+        guard calibrator.active else { return }
+        let placement = calibrator.placement, data = calibrator.data
+        calibrator.stop(); preparing = false
+        await enterWorld(nature:selection == 1,english:english,placement:placement,calibration:data)
+    }
+    func cancelCalibration() {
+        preparing = false; calibrator.stop()
+        for island in islands { island.isEnabled = true }
     }
     private func runIntro() async {
         // Unity MoodiRescueDirector timings and distances. Surface alignment is refined
@@ -151,8 +215,12 @@ final class NativeScene {
         await speech.say("K10",from:moodi.root,interrupt:true)
     }
     func leaveWorld() {
+        visitGeneration += 1
         storyTask?.cancel(); storyTask = nil; speechTask?.cancel(); speech.stop(); introDone = false; journey.end(); rescue.stop(); rescue.root.removeFromParent(); moodi.stop()
-        inWorld = false
+        hud.stop(); activeSticker = nil
+        cancelCalibration()
+        inWorld = false; visitStarted = nil; failure = nil
+        for (id, entry) in stickers { entry.isEnabled = latestImages[id] != nil }
         for island in islands { island.isEnabled = true }
         carouselControls?.isEnabled = true
     }
